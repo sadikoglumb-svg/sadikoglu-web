@@ -1,0 +1,1192 @@
+[
+  {
+    "id": "erenkoy-apt-1",
+    "ad": "Ethem Efendi̇ Cad. Tuncay Üstün Apt No:38",
+    "adres": "Erenköy Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.96077,
+      "lng": 29.08218
+    },
+    "baslangicTarihi": "",
+    "iskanTarihi": "1987-09",
+    "bagimsizBolum": 28,
+    "insaatM2": 4682,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-2",
+    "ad": "Yoğurtçubaşi Zi̇ya Bey Apt No: 15",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97685,
+      "lng": 29.04478
+    },
+    "baslangicTarihi": "1985-05",
+    "iskanTarihi": "1987-05",
+    "bagimsizBolum": 6,
+    "insaatM2": 2277,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-3",
+    "ad": "Yoğurtçubaşi Gezi̇ Apt No: 13",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.9711,
+      "lng": 29.04155
+    },
+    "baslangicTarihi": "1985-05",
+    "iskanTarihi": "1987-05",
+    "bagimsizBolum": 8,
+    "insaatM2": 6,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-4",
+    "ad": "Haci Mehmet Efendi̇ Sok No: 10",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97109,
+      "lng": 29.03803
+    },
+    "baslangicTarihi": "1986-06",
+    "iskanTarihi": "1988-11",
+    "bagimsizBolum": 22,
+    "insaatM2": 4264,
+    "fotograflar": []
+  },
+  {
+    "id": "erenkoy-apt-5",
+    "ad": "İki̇nci̇ Orta Sok Pala Apt No: 50",
+    "adres": "Erenköy Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.96468,
+      "lng": 29.08133
+    },
+    "baslangicTarihi": "1986-11",
+    "iskanTarihi": "1989-01",
+    "bagimsizBolum": 33,
+    "insaatM2": 4521,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-6",
+    "ad": "Dr. Faruk Ayanoğlu Cad Karakurt Apt No:14",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97555,
+      "lng": 29.04378
+    },
+    "baslangicTarihi": "1986-11",
+    "iskanTarihi": "1988-08",
+    "bagimsizBolum": 9,
+    "insaatM2": 2331,
+    "fotograflar": []
+  },
+  {
+    "id": "erenkoy-apt-7",
+    "ad": "Eralp Sok. Eser Apt. No: 3",
+    "adres": "Erenköy Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.96229,
+      "lng": 29.07661
+    },
+    "baslangicTarihi": "1987-05",
+    "iskanTarihi": "1989-12",
+    "bagimsizBolum": 12,
+    "insaatM2": 1295,
+    "fotograflar": []
+  },
+  {
+    "id": "tuzla-apt-8",
+    "ad": "Tuzla Sadikoğlu Vi̇lla",
+    "adres": "Tuzla Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.81901,
+      "lng": 29.3049
+    },
+    "baslangicTarihi": "",
+    "iskanTarihi": "1989-04",
+    "bagimsizBolum": 1,
+    "insaatM2": 1700,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-9",
+    "ad": "Gazi̇ Mehmetçi̇k Sok Hale Apt No: 3",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.9729,
+      "lng": 29.04019
+    },
+    "baslangicTarihi": "",
+    "iskanTarihi": "1989-07",
+    "bagimsizBolum": 7,
+    "insaatM2": 1373,
+    "fotograflar": []
+  },
+  {
+    "id": "caddebostan-apt-10",
+    "ad": "Prof.Dr.Hulusi̇ Behçet Neci̇le Cevdet No: 26",
+    "adres": "Caddebostan Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.95967,
+      "lng": 29.08123
+    },
+    "baslangicTarihi": "1988-10",
+    "iskanTarihi": "1989-07",
+    "bagimsizBolum": 14,
+    "insaatM2": 2652,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-11",
+    "ad": "Haci Mehmet Efendi̇ Sok Beyazgül Apt No: 32",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97282,
+      "lng": 29.04168
+    },
+    "baslangicTarihi": "1988-04",
+    "iskanTarihi": "1989-10",
+    "bagimsizBolum": 10,
+    "insaatM2": 1407,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-12",
+    "ad": "Haci Mehmet Efendi̇ Sok Köşem Apt. No: 23",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.973,
+      "lng": 29.04246
+    },
+    "baslangicTarihi": "1988-09",
+    "iskanTarihi": "1989-11",
+    "bagimsizBolum": 10,
+    "insaatM2": 1508,
+    "fotograflar": []
+  },
+  {
+    "id": "zuhtupasa-apt-13",
+    "ad": "Fahretti̇n Keri̇m Gökay Yuva Apt No: 42",
+    "adres": "Zühtüpaşa Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.98757,
+      "lng": 29.04768
+    },
+    "baslangicTarihi": "1988-05",
+    "iskanTarihi": "1990-02",
+    "bagimsizBolum": 16,
+    "insaatM2": 2170,
+    "fotograflar": []
+  },
+  {
+    "id": "yakacik-apt-14",
+    "ad": "Ayazma Cad. Sadikoğlu Apt. No: 25",
+    "adres": "Yakacik Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.90915,
+      "lng": 29.19372
+    },
+    "baslangicTarihi": "",
+    "iskanTarihi": "1989-07",
+    "bagimsizBolum": 10,
+    "insaatM2": 1532,
+    "fotograflar": []
+  },
+  {
+    "id": "goztepe-apt-15",
+    "ad": "Şai̇r Ahmet Kemal S. Pr.A.T.Tanoğlu Apt. No:10",
+    "adres": "Göztepe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97602,
+      "lng": 29.06019
+    },
+    "baslangicTarihi": "1989-02",
+    "iskanTarihi": "1990-08",
+    "bagimsizBolum": 13,
+    "insaatM2": 1806,
+    "fotograflar": []
+  },
+  {
+    "id": "goztepe-apt-16",
+    "ad": "Dr. Rifat Paşa Sok.Uras Apt. No: 5",
+    "adres": "Göztepe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97119,
+      "lng": 29.06394
+    },
+    "baslangicTarihi": "1989-06",
+    "iskanTarihi": "1990-10",
+    "bagimsizBolum": 10,
+    "insaatM2": 1473,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-17",
+    "ad": "Yoğurtçubaşi Sok. Sakizağaci Apt. No: 3",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97338,
+      "lng": 29.04365
+    },
+    "baslangicTarihi": "1989-09",
+    "iskanTarihi": "1991-05",
+    "bagimsizBolum": 24,
+    "insaatM2": 3926,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-18",
+    "ad": "Yeşi̇lkir Sok Zi̇yabey Apt No 3/1",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97065,
+      "lng": 29.04249
+    },
+    "baslangicTarihi": "1989-12",
+    "iskanTarihi": "1991-12",
+    "bagimsizBolum": 8,
+    "insaatM2": 1581,
+    "fotograflar": []
+  },
+  {
+    "id": "rasim-pasa-apt-19",
+    "ad": "Hali̇tağa Cad. No:78",
+    "adres": "Rasi̇m Paşa Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.98962,
+      "lng": 29.03638
+    },
+    "baslangicTarihi": "",
+    "iskanTarihi": "1991-09",
+    "bagimsizBolum": 5,
+    "insaatM2": 1291,
+    "fotograflar": []
+  },
+  {
+    "id": "rasim-pasa-apt-20",
+    "ad": "İskele Sok. Saygi Apt. No: 49",
+    "adres": "Rasi̇m Paşa Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.99145,
+      "lng": 29.03559
+    },
+    "baslangicTarihi": "1988-07",
+    "iskanTarihi": "1991-08",
+    "bagimsizBolum": 7,
+    "insaatM2": 687,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-21",
+    "ad": "Şule Sok. Lale Apt. No: 2",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97052,
+      "lng": 29.04272
+    },
+    "baslangicTarihi": "1990-03",
+    "iskanTarihi": "1991-08",
+    "bagimsizBolum": 10,
+    "insaatM2": 1513,
+    "fotograflar": []
+  },
+  {
+    "id": "caferaga-apt-22",
+    "ad": "Moda Bostan Sok. Işik Apt. No: 19",
+    "adres": "Caferağa Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.98857,
+      "lng": 29.02492
+    },
+    "baslangicTarihi": "1990-07",
+    "iskanTarihi": "1991-11",
+    "bagimsizBolum": 9,
+    "insaatM2": 864,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-23",
+    "ad": "Lalezar Sok Deni̇z Apt. No: 12",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.9766,
+      "lng": 29.04479
+    },
+    "baslangicTarihi": "1990-08",
+    "iskanTarihi": "1992-03",
+    "bagimsizBolum": 22,
+    "insaatM2": 2757,
+    "fotograflar": []
+  },
+  {
+    "id": "tuglacibasi-apt-24",
+    "ad": "Dr. Muhi̇tti̇n Tümerkan Sok M.Tümerkan Apt No: 8",
+    "adres": "Tuğlacibaşi Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.9729,
+      "lng": 29.05392
+    },
+    "baslangicTarihi": "1990-11",
+    "iskanTarihi": "1991-12",
+    "bagimsizBolum": 9,
+    "insaatM2": 1360,
+    "fotograflar": []
+  },
+  {
+    "id": "erenkoy-apt-25",
+    "ad": "Ethem Efendi̇ Cad. Ashaboğlu Apt.  No: 39",
+    "adres": "Erenköy Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.96272,
+      "lng": 29.08281
+    },
+    "baslangicTarihi": "1991-02",
+    "iskanTarihi": "1992-10",
+    "bagimsizBolum": 26,
+    "insaatM2": 7474,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-26",
+    "ad": "Şule Sok. Gül Apt. No:4",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97518,
+      "lng": 29.03882
+    },
+    "baslangicTarihi": "1991-03",
+    "iskanTarihi": "1992-07",
+    "bagimsizBolum": 10,
+    "insaatM2": 1329,
+    "fotograflar": []
+  },
+  {
+    "id": "goztepe-apt-27",
+    "ad": "İzzet Beltan Sokak İdi̇l Apt.  No: 6",
+    "adres": "Göztepe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97349,
+      "lng": 29.06571
+    },
+    "baslangicTarihi": "1991-09",
+    "iskanTarihi": "1993-02",
+    "bagimsizBolum": 12,
+    "insaatM2": 2073,
+    "fotograflar": []
+  },
+  {
+    "id": "egitim-apt-28",
+    "ad": "Hakki Manço Sok. Rifat Mürsel Apt. No:9",
+    "adres": "Eği̇ti̇m Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.9917,
+      "lng": 29.04285
+    },
+    "baslangicTarihi": "1992-08",
+    "iskanTarihi": "1993-09",
+    "bagimsizBolum": 15,
+    "insaatM2": 1859,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-29",
+    "ad": "Erguvan Sok. Alos Apt.  No: 12",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97358,
+      "lng": 29.03997
+    },
+    "baslangicTarihi": "",
+    "iskanTarihi": "1993-11",
+    "bagimsizBolum": 10,
+    "insaatM2": 2348,
+    "fotograflar": []
+  },
+  {
+    "id": "suadiye-apt-30",
+    "ad": "Hami̇yet Yüceses Sok. Özen Apt.  No: 18",
+    "adres": "Suadi̇ye Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.95551,
+      "lng": 29.08541
+    },
+    "baslangicTarihi": "1993-05",
+    "iskanTarihi": "1994-06",
+    "bagimsizBolum": 13,
+    "insaatM2": 1743,
+    "fotograflar": []
+  },
+  {
+    "id": "feneryolu-apt-31",
+    "ad": "Rüzgar Gülü Çikmazi Saadet Apt.  No: 4",
+    "adres": "Feneryolu Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.9679,
+      "lng": 29.053
+    },
+    "baslangicTarihi": "1993-05",
+    "iskanTarihi": "1994-10",
+    "bagimsizBolum": 10,
+    "insaatM2": 1553,
+    "fotograflar": []
+  },
+  {
+    "id": "goztepe-apt-32",
+    "ad": "Yeşi̇lbahar Sok Ceren Apt.  No: 6",
+    "adres": "Göztepe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.96892,
+      "lng": 29.06181
+    },
+    "baslangicTarihi": "1993-08",
+    "iskanTarihi": "1994-11",
+    "bagimsizBolum": 12,
+    "insaatM2": 1980,
+    "fotograflar": []
+  },
+  {
+    "id": "icerenkoy-apt-33",
+    "ad": "Buket Sok Buket Apt.  No: 24",
+    "adres": "İçerenköy Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97276,
+      "lng": 29.10226
+    },
+    "baslangicTarihi": "",
+    "iskanTarihi": "1995-02",
+    "bagimsizBolum": 12,
+    "insaatM2": 1792,
+    "fotograflar": []
+  },
+  {
+    "id": "goztepe-apt-34",
+    "ad": "Tepegöz Sok. Çinr Apt No: 9",
+    "adres": "Göztepe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97253,
+      "lng": 29.06479
+    },
+    "baslangicTarihi": "1994-10",
+    "iskanTarihi": "1996-02",
+    "bagimsizBolum": 29,
+    "insaatM2": 3870,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-35",
+    "ad": "Şule Sok. Manolya Apt. No:6",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97359,
+      "lng": 29.0432
+    },
+    "baslangicTarihi": "1994-09",
+    "iskanTarihi": "1996-04",
+    "bagimsizBolum": 12,
+    "insaatM2": 1378,
+    "fotograflar": []
+  },
+  {
+    "id": "goztepe-apt-36",
+    "ad": "Yeşi̇lbahar Sok Mehmet Bey Apt. No: 10",
+    "adres": "Göztepe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97093,
+      "lng": 29.06797
+    },
+    "baslangicTarihi": "1994-11",
+    "iskanTarihi": "1996-05",
+    "bagimsizBolum": 6,
+    "insaatM2": 1233,
+    "fotograflar": []
+  },
+  {
+    "id": "erenkoy-apt-37",
+    "ad": "Gen. Necmi̇ Öktem Sok No 19 Emi̇r Apt",
+    "adres": "Erenköy Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.96516,
+      "lng": 29.07613
+    },
+    "baslangicTarihi": "1995-05",
+    "iskanTarihi": "1996-08",
+    "bagimsizBolum": 8,
+    "insaatM2": 1952,
+    "fotograflar": []
+  },
+  {
+    "id": "feneryolu-apt-38",
+    "ad": "Gülden Sok Orki̇de Apt No 10",
+    "adres": "Feneryolu Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97292,
+      "lng": 29.05553
+    },
+    "baslangicTarihi": "1995-06",
+    "iskanTarihi": "1996-11",
+    "bagimsizBolum": 16,
+    "insaatM2": 2288,
+    "fotograflar": []
+  },
+  {
+    "id": "caddebostan-apt-39",
+    "ad": "Operatör Cemi̇l Topuzlu Cad. Ari Apt. No: 89",
+    "adres": "Caddebostan Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.95678,
+      "lng": 29.08088
+    },
+    "baslangicTarihi": "1995-11",
+    "iskanTarihi": "1996-12",
+    "bagimsizBolum": 10,
+    "insaatM2": 1671,
+    "fotograflar": []
+  },
+  {
+    "id": "caddebostan-apt-40",
+    "ad": "Papatyali Sok. Ali̇ Kurbanzade Apt.  No: 4",
+    "adres": "Caddebostan Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.95877,
+      "lng": 29.08482
+    },
+    "baslangicTarihi": "1996-02",
+    "iskanTarihi": "1997-07",
+    "bagimsizBolum": 10,
+    "insaatM2": 3023,
+    "fotograflar": []
+  },
+  {
+    "id": "kiziltoprak-apt-41",
+    "ad": "Sabri̇ Ki̇raz Sok. Yonca Apt.  No: 6",
+    "adres": "Kiziltoprak Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.96045,
+      "lng": 29.08365
+    },
+    "baslangicTarihi": "1996-09",
+    "iskanTarihi": "1997-08",
+    "bagimsizBolum": 12,
+    "insaatM2": 1535,
+    "fotograflar": []
+  },
+  {
+    "id": "suadiye-apt-42",
+    "ad": "Noter Sok. Sema Apt.  No: 49",
+    "adres": "Suadi̇ye Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.95632,
+      "lng": 29.0833
+    },
+    "baslangicTarihi": "1996-09",
+    "iskanTarihi": "1997-12",
+    "bagimsizBolum": 4,
+    "insaatM2": 1107,
+    "fotograflar": []
+  },
+  {
+    "id": "suadiye-apt-43",
+    "ad": "Noter Sok. Sema Apt.  No: 49",
+    "adres": "Suadi̇ye Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.95151,
+      "lng": 29.08867
+    },
+    "baslangicTarihi": "1996-09",
+    "iskanTarihi": "1997-12",
+    "bagimsizBolum": 4,
+    "insaatM2": 1107,
+    "fotograflar": []
+  },
+  {
+    "id": "feneryolu-apt-44",
+    "ad": "Fenerli̇ Ahmet Sok. Güven Apt.  No: 20",
+    "adres": "Feneryolu Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97107,
+      "lng": 29.05644
+    },
+    "baslangicTarihi": "1997-04",
+    "iskanTarihi": "1998-07",
+    "bagimsizBolum": 20,
+    "insaatM2": 2717,
+    "fotograflar": []
+  },
+  {
+    "id": "caddebostan-apt-45",
+    "ad": "Çamfistiği Sok. No: 27",
+    "adres": "Caddebostan Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.95728,
+      "lng": 29.0817
+    },
+    "baslangicTarihi": "1997-06",
+    "iskanTarihi": "1998-09",
+    "bagimsizBolum": 7,
+    "insaatM2": 1432,
+    "fotograflar": []
+  },
+  {
+    "id": "kiziltoprak-apt-46",
+    "ad": "Cumhur Sokak Kültür Apt No 7",
+    "adres": "Kiziltoprak Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.96451,
+      "lng": 29.085
+    },
+    "baslangicTarihi": "1998-06",
+    "iskanTarihi": "1999-09",
+    "bagimsizBolum": 11,
+    "insaatM2": 1462,
+    "fotograflar": []
+  },
+  {
+    "id": "erenkoy-apt-47",
+    "ad": "Kazim Karabeki̇r Paşa S. Güllü Köşk Apt.  No: 15",
+    "adres": "Erenköy Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.96251,
+      "lng": 29.07884
+    },
+    "baslangicTarihi": "1998-04",
+    "iskanTarihi": "1999-05",
+    "bagimsizBolum": 10,
+    "insaatM2": 1620,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-48",
+    "ad": "Alageyi̇k Sok Yeşi̇m Apt No 2",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97359,
+      "lng": 29.03826
+    },
+    "baslangicTarihi": "1999-04",
+    "iskanTarihi": "1999-06",
+    "bagimsizBolum": 11,
+    "insaatM2": 1737,
+    "fotograflar": []
+  },
+  {
+    "id": "merdivenkoy-apt-49",
+    "ad": "Yumurtaci Abdi̇ Bey Cad. No:54",
+    "adres": "Merdi̇venköy Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97544,
+      "lng": 29.10251
+    },
+    "baslangicTarihi": "1999-05",
+    "iskanTarihi": "2000-07",
+    "bagimsizBolum": 8,
+    "insaatM2": 2087,
+    "fotograflar": []
+  },
+  {
+    "id": "kiziltoprak-apt-50",
+    "ad": "Kolej Sok. Melek Apt.  No: 3",
+    "adres": "Kiziltoprak Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.96138,
+      "lng": 29.08393
+    },
+    "baslangicTarihi": "2000-06",
+    "iskanTarihi": "2001-06",
+    "bagimsizBolum": 15,
+    "insaatM2": 1462,
+    "fotograflar": []
+  },
+  {
+    "id": "goztepe-apt-51",
+    "ad": "Papatyali Sok. Mehli̇ka Apt.  No: 21",
+    "adres": "Göztepe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97025,
+      "lng": 29.06412
+    },
+    "baslangicTarihi": "2000-06",
+    "iskanTarihi": "2001-08",
+    "bagimsizBolum": 18,
+    "insaatM2": 1462,
+    "fotograflar": []
+  },
+  {
+    "id": "caddebostan-apt-52",
+    "ad": "Mehtap Sok. Bariş Apt.  No: 2",
+    "adres": "Caddebostan Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.96293,
+      "lng": 29.07824
+    },
+    "baslangicTarihi": "2002-03",
+    "iskanTarihi": "2003-03",
+    "bagimsizBolum": 21,
+    "insaatM2": 2947,
+    "fotograflar": []
+  },
+  {
+    "id": "caddebostan-apt-53",
+    "ad": "V. Bereketoğlu Sok. Böcek Apt. No: 19",
+    "adres": "Caddebostan Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.96004,
+      "lng": 29.08492
+    },
+    "baslangicTarihi": "2002-08",
+    "iskanTarihi": "2003-10",
+    "bagimsizBolum": 15,
+    "insaatM2": 2060,
+    "fotograflar": []
+  },
+  {
+    "id": "goztepe-apt-54",
+    "ad": "Operatör Cemi̇l Topuzlu Cad.Ege Apt.  No: 69",
+    "adres": "Göztepe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97561,
+      "lng": 29.0612
+    },
+    "baslangicTarihi": "2003-04",
+    "iskanTarihi": "2004-07",
+    "bagimsizBolum": 11,
+    "insaatM2": 1940,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-55",
+    "ad": "Yeşi̇lkir Sok. Emre Apt.  No: 9",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.96992,
+      "lng": 29.04481
+    },
+    "baslangicTarihi": "2004-06",
+    "iskanTarihi": "2005-07",
+    "bagimsizBolum": 12,
+    "insaatM2": 1980,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-56",
+    "ad": "Eflatun Sok. Manolya Apt.  No: 16",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97693,
+      "lng": 29.04168
+    },
+    "baslangicTarihi": "2004-10",
+    "iskanTarihi": "2005-12",
+    "bagimsizBolum": 21,
+    "insaatM2": 4000,
+    "fotograflar": []
+  },
+  {
+    "id": "goztepe-apt-57",
+    "ad": "Yeşi̇lçeşme Sok Bi̇rli̇k Apt No 12",
+    "adres": "Göztepe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.96864,
+      "lng": 29.06482
+    },
+    "baslangicTarihi": "2004-11",
+    "iskanTarihi": "2006-03",
+    "bagimsizBolum": 18,
+    "insaatM2": 2500,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-58",
+    "ad": "Yoğurtçubaşi Sok Marti Konaklari No:16",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97385,
+      "lng": 29.03885
+    },
+    "baslangicTarihi": "2005-07",
+    "iskanTarihi": "2006-12",
+    "bagimsizBolum": 16,
+    "insaatM2": 3500,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-59",
+    "ad": "Dr. Faruk Ayanoğlu Cad Münever Apt No 24",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97099,
+      "lng": 29.04466
+    },
+    "baslangicTarihi": "2006-03",
+    "iskanTarihi": "2007-06",
+    "bagimsizBolum": 22,
+    "insaatM2": 3000,
+    "fotograflar": []
+  },
+  {
+    "id": "caferaga-apt-60",
+    "ad": "Mühürdar Cad Sahi̇l Apt No 99",
+    "adres": "Caferağa Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.98336,
+      "lng": 29.02842
+    },
+    "baslangicTarihi": "2006-05",
+    "iskanTarihi": "2007-09",
+    "bagimsizBolum": 13,
+    "insaatM2": 2500,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-61",
+    "ad": "Dr. Faruk Ayanoğlu Cad Arzu Apt No 13",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97316,
+      "lng": 29.04165
+    },
+    "baslangicTarihi": "2007-05",
+    "iskanTarihi": "2008-04",
+    "bagimsizBolum": 20,
+    "insaatM2": 3000,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-62",
+    "ad": "Lalezar Sok. Meşe Apt. No:8",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97662,
+      "lng": 29.03858
+    },
+    "baslangicTarihi": "2007-07",
+    "iskanTarihi": "2009-08",
+    "bagimsizBolum": 29,
+    "insaatM2": 4750,
+    "fotograflar": []
+  },
+  {
+    "id": "caddebostan-apt-63",
+    "ad": "Mehtap Sokak Di̇lek Apt. N0:12",
+    "adres": "Caddebostan Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.95866,
+      "lng": 29.08015
+    },
+    "baslangicTarihi": "2009-06",
+    "iskanTarihi": "2010-09",
+    "bagimsizBolum": 19,
+    "insaatM2": 3000,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-64",
+    "ad": "Dr. Faruk Ayanoğlu Cad. Burç Apt. No:45",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97301,
+      "lng": 29.04224
+    },
+    "baslangicTarihi": "2009-07",
+    "iskanTarihi": "2010-09",
+    "bagimsizBolum": 20,
+    "insaatM2": 4000,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-65",
+    "ad": "Fuat Paşa Cad. Deni̇z Apt. No:22",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97252,
+      "lng": 29.0395
+    },
+    "baslangicTarihi": "2010-05",
+    "iskanTarihi": "2011-09",
+    "bagimsizBolum": 25,
+    "insaatM2": 3000,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-66",
+    "ad": "Dr. F. Ayanoğlu Cad. Dalyankoru Apt. No:29",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.96977,
+      "lng": 29.04068
+    },
+    "baslangicTarihi": "2011-05",
+    "iskanTarihi": "2013-06",
+    "bagimsizBolum": 39,
+    "insaatM2": 5000,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-67",
+    "ad": "18 Mart Sok. Erdeni̇z Apt. 6",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.9698,
+      "lng": 29.04333
+    },
+    "baslangicTarihi": "2012-12",
+    "iskanTarihi": "2014-04",
+    "bagimsizBolum": 21,
+    "insaatM2": 4000,
+    "fotograflar": []
+  },
+  {
+    "id": "goztepe-apt-68",
+    "ad": "Tanzi̇mat Sok. Tanzi̇mat Apt. No: 17",
+    "adres": "Göztepe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97423,
+      "lng": 29.06763
+    },
+    "baslangicTarihi": "2013-03",
+    "iskanTarihi": "2014-10",
+    "bagimsizBolum": 44,
+    "insaatM2": 7000,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-69",
+    "ad": "Fener Kalamiş Cad. No:92-94 Doğa Palas",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97467,
+      "lng": 29.03797
+    },
+    "baslangicTarihi": "2013-11",
+    "iskanTarihi": "2015-05",
+    "bagimsizBolum": 58,
+    "insaatM2": 8500,
+    "fotograflar": []
+  },
+  {
+    "id": "goztepe-apt-70",
+    "ad": "Yeşi̇lbahar Sok. Arzu Apt. No:58 Arzu Apt",
+    "adres": "Göztepe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97558,
+      "lng": 29.06245
+    },
+    "baslangicTarihi": "2013-11",
+    "iskanTarihi": "2016-04",
+    "bagimsizBolum": 16,
+    "insaatM2": 2500,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-71",
+    "ad": "Haci Mehmet Efendi̇ Sok. No:12 Evi̇m Apt.",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97179,
+      "lng": 29.04216
+    },
+    "baslangicTarihi": "2014-04",
+    "iskanTarihi": "2016-08",
+    "bagimsizBolum": 16,
+    "insaatM2": 3000,
+    "fotograflar": []
+  },
+  {
+    "id": "suadiye-apt-72",
+    "ad": "Plaj Yolu Sok. Dekay Apt. No: 13",
+    "adres": "Suadi̇ye Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.95179,
+      "lng": 29.08785
+    },
+    "baslangicTarihi": "2014-07",
+    "iskanTarihi": "2017-06",
+    "bagimsizBolum": 11,
+    "insaatM2": 4500,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-73",
+    "ad": "Haci Mehmet Efendi̇ Sok. No:6 Akasya Apt.",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97144,
+      "lng": 29.04122
+    },
+    "baslangicTarihi": "2015-08",
+    "iskanTarihi": "2017-03",
+    "bagimsizBolum": 18,
+    "insaatM2": 2000,
+    "fotograflar": []
+  },
+  {
+    "id": "feneryolu-apt-74",
+    "ad": "Mustafa Mazhar Bey Sok. Reşat Apt. No: 21",
+    "adres": "Feneryolu Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97468,
+      "lng": 29.05622
+    },
+    "baslangicTarihi": "2015-10",
+    "iskanTarihi": "2017-11",
+    "bagimsizBolum": 20,
+    "insaatM2": 4500,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-75",
+    "ad": "Bağdat Cad. Huzurpalas Apt. No:168",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97281,
+      "lng": 29.04069
+    },
+    "baslangicTarihi": "2014-11",
+    "iskanTarihi": "2018-04",
+    "bagimsizBolum": 23,
+    "insaatM2": 6000,
+    "fotograflar": []
+  },
+  {
+    "id": "suadiye-apt-76",
+    "ad": "Vapur Yolu Sok. Huzur Apt. No: 12",
+    "adres": "Suadi̇ye Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.95416,
+      "lng": 29.0907
+    },
+    "baslangicTarihi": "2016-04",
+    "iskanTarihi": "2019-03",
+    "bagimsizBolum": 12,
+    "insaatM2": 3000,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-77",
+    "ad": "Op. Cemi̇l Topuzlu Cad. Emek Apt.  No:39",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97559,
+      "lng": 29.03981
+    },
+    "baslangicTarihi": "2015-11",
+    "iskanTarihi": "2019-03",
+    "bagimsizBolum": 25,
+    "insaatM2": 4500,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-78",
+    "ad": "Op. Cemi̇l Topuzlu Cad. Nazlim Apt.  No:19",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97572,
+      "lng": 29.03797
+    },
+    "baslangicTarihi": "2018-07",
+    "iskanTarihi": "2020-03",
+    "bagimsizBolum": 21,
+    "insaatM2": 4500,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-79",
+    "ad": "Gazi̇ Mehmetçi̇k Sok. Gazi̇ Apt No: 15",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97036,
+      "lng": 29.04
+    },
+    "baslangicTarihi": "2020-04",
+    "iskanTarihi": "2021-05",
+    "bagimsizBolum": 18,
+    "insaatM2": 2700,
+    "fotograflar": []
+  },
+  {
+    "id": "goztepe-apt-80",
+    "ad": "Mehmet Şeyda Sok. Öymen Apt. No:1",
+    "adres": "Göztepe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97047,
+      "lng": 29.06444
+    },
+    "baslangicTarihi": "2020-09",
+    "iskanTarihi": "2022-04",
+    "bagimsizBolum": 31,
+    "insaatM2": 8000,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-81",
+    "ad": "Dr. Faruk Ayanoğlu Cad. Kale Apt. No:36",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97325,
+      "lng": 29.04083
+    },
+    "baslangicTarihi": "2020-12",
+    "iskanTarihi": "2022-09",
+    "bagimsizBolum": 51,
+    "insaatM2": 9200,
+    "fotograflar": []
+  },
+  {
+    "id": "feneryolu-apt-82",
+    "ad": "Bağdat Caddesi̇ Bursa Apt. No : 141",
+    "adres": "Feneryolu Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.96896,
+      "lng": 29.05602
+    },
+    "baslangicTarihi": "2022-03",
+    "iskanTarihi": "2023-06",
+    "bagimsizBolum": 11,
+    "insaatM2": 2600,
+    "fotograflar": []
+  },
+  {
+    "id": "feneryolu-apt-83",
+    "ad": "Bağdat Caddesi̇ Ni̇met Apt No : 139",
+    "adres": "Feneryolu Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97177,
+      "lng": 29.05895
+    },
+    "baslangicTarihi": "2022-03",
+    "iskanTarihi": "2024-05",
+    "bagimsizBolum": 5,
+    "insaatM2": 1200,
+    "fotograflar": []
+  },
+  {
+    "id": "fenerbahce-apt-84",
+    "ad": "Dr. Faruk Ayanoğlu No : 32",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.97505,
+      "lng": 29.04451
+    },
+    "baslangicTarihi": "2024-06",
+    "iskanTarihi": "2026-03",
+    "bagimsizBolum": 13,
+    "insaatM2": 4200,
+    "fotograflar": []
+  },
+  {
+    "id": "feneryolu-apt-85",
+    "ad": "Kumbaracilar Sokak No : 2-4-6",
+    "adres": "Feneryolu Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.9694,
+      "lng": 29.05702
+    },
+    "baslangicTarihi": "2022-03",
+    "iskanTarihi": "2026-04",
+    "bagimsizBolum": 29,
+    "insaatM2": 6500,
+    "fotograflar": []
+  }
+]

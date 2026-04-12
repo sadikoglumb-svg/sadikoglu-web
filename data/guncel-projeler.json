@@ -1,0 +1,50 @@
+[
+  {
+    "id": "firuzan-apt-kadikoy",
+    "ad": "Firuzan Apartmanı",
+    "ilce": "Kadıköy",
+    "mahalle": "Zühtüpaşa",
+    "asama": "Temel Aşaması",
+    "tahminiTeslim": "2027 Q2",
+    "aciklama": "Zühtüpaşa Mahallesi'nde 12 bağımsız bölümlü, 6 katlı modern konut projesi. Geniş balkonlar, yerden ısıtma sistemi ve akıllı ev altyapısıyla tasarlanmaktadır.",
+    "fotograflar": [],
+    "koordinat": { "lat": 40.9888, "lng": 29.0457 },
+    "yayinda": true
+  },
+  {
+    "id": "cennet-apt-goztepe",
+    "ad": "Cennet Apartmanı",
+    "ilce": "Kadıköy",
+    "mahalle": "Göztepe",
+    "asama": "Kaba İnşaat",
+    "tahminiTeslim": "2026 Q4",
+    "aciklama": "Göztepe'de 18 bağımsız bölümlü, 8 katlı karma kullanımlı proje. Alt katlarda ticari alan, üst katlarda konut.",
+    "fotograflar": [],
+    "koordinat": { "lat": 40.9731, "lng": 29.0652 },
+    "yayinda": true
+  },
+  {
+    "id": "lale-apt-feneryolu",
+    "ad": "Lale Apartmanı",
+    "ilce": "Kadıköy",
+    "mahalle": "Feneryolu",
+    "asama": "İnce İşler",
+    "tahminiTeslim": "2026 Q3",
+    "aciklama": "Feneryolu Mahallesi'nde Bağdat Caddesi'ne yakın, 8 bağımsız bölümlü butik proje. A+ enerji sınıfı, ısı yalıtımlı cephe.",
+    "fotograflar": [],
+    "koordinat": { "lat": 40.9718, "lng": 29.0561 },
+    "yayinda": true
+  },
+  {
+    "id": "tanman-apt-zuhutpasa",
+    "ad": "Tanman Apartmanı",
+    "ilce": "Kadıköy",
+    "mahalle": "Zühtüpaşa",
+    "asama": "Bitmek Üzere",
+    "tahminiTeslim": "2026 Q2",
+    "aciklama": "45 bağımsız bölümlü, 16 katlı prestij konut projesi. Sosyal tesis, otopark ve güvenlik sistemleriyle donatılmıştır.",
+    "fotograflar": [],
+    "koordinat": { "lat": 40.9901, "lng": 29.0501 },
+    "yayinda": true
+  }
+]
