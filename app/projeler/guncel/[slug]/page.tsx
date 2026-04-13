@@ -1,14 +1,15 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
 import { MapPin, Clock, ArrowLeft, Building2 } from "lucide-react";
 import { getGuncelProjeler } from "@/lib/projects";
+import ProjeGaleri from "@/components/ProjeGaleri";
 
 const ASAMA_COLORS: Record<string, string> = {
   "Temel Aşaması": "bg-blue-100 text-blue-800",
   "Kaba İnşaat": "bg-orange-100 text-orange-800",
   "İnce İşler": "bg-yellow-100 text-yellow-800",
-  "Bitmek Üzere": "bg-green-100 text-green-800",
+  "Bitmek Üzere":     "bg-green-100 text-green-800",
+  "Proje Aşamasında": "bg-purple-100 text-purple-800",
 };
 
 export async function generateStaticParams() {
@@ -65,23 +66,9 @@ export default function ProjeDetayPage({ params }: { params: { slug: string } })
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Ana İçerik */}
             <div className="lg:col-span-2">
-              {/* Fotoğraflar */}
+              {/* Fotoğraf Galerisi */}
               {proje.fotograflar.length > 0 ? (
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
-                  {proje.fotograflar.map((foto, i) => (
-                    <div
-                      key={i}
-                      className="relative aspect-video bg-gray-200 overflow-hidden"
-                    >
-                      <Image
-                        src={foto}
-                        alt={`${proje.ad} - Fotoğraf ${i + 1}`}
-                        fill
-                        className="object-cover"
-                      />
-                    </div>
-                  ))}
-                </div>
+                <ProjeGaleri fotograflar={proje.fotograflar} ad={proje.ad} />
               ) : (
                 <div className="aspect-video bg-navy/10 flex items-center justify-center mb-8 border border-gray-200">
                   <div className="text-center text-gray-400">
