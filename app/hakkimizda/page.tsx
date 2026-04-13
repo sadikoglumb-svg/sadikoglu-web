@@ -40,7 +40,7 @@ const zaman_cizelgesi = [
     yil: "1945",
     baslik: "İstanbul'a İlk Adım",
     aciklama:
-      "Mehmet Sadıkoğlu, Anadolu'dan İstanbul'a gelir ve inşaat sektöründe çalışmaya başlar. Şehrin yeniden şekillendiği bu yıllarda temelleri atılır.",
+      "Mehmet Sadıkoğlu, Trabzon'dan İstanbul'a gelir ve inşaat sektöründe çalışmaya başlar. Şehrin yeniden şekillendiği bu yıllarda temelleri atılır.",
   },
   {
     yil: "1965",
@@ -93,9 +93,9 @@ export default function HakkimizdaPage() {
               <div className="mt-6 space-y-5 text-gray-600 leading-relaxed">
                 <p>
                   Sadıkoğlu İnşaat'ın hikâyesi, 1945 yılında bir gencin
-                  Anadolu'dan İstanbul'a adım atmasıyla başlar. Mehmet
-                  Sadıkoğlu, bu şehirde inşaat sektörüne girer ve iki
-                  on yıl boyunca sektörü içten öğrenir.
+                  Trabzon'dan İstanbul'a adım atmasıyla başlar. Mehmet
+                  Sadıkoğlu, bu şehirde inşaat sektörüne girer ve yirmi
+                  yıl boyunca sektörü içten öğrenir.
                 </p>
                 <p>
                   1965'te iki kardeşiyle birlikte Bağdat Caddesi'nde ilk
@@ -142,13 +142,13 @@ export default function HakkimizdaPage() {
             </div>
 
             {/* Logo / Görsel */}
-            <div className="flex items-center justify-center bg-navy p-16 h-full min-h-[320px]">
+            <div className="flex items-center justify-center bg-gray-50 border border-gray-100 p-16 h-full min-h-[320px]">
               <Image
                 src="/logo.png"
                 alt="Sadıkoğlu İnşaat Logo"
-                width={260}
-                height={130}
-                className="object-contain brightness-0 invert"
+                width={340}
+                height={180}
+                className="object-contain"
               />
             </div>
           </div>

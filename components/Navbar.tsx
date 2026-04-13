@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Menu, X, ChevronDown } from "lucide-react";
@@ -9,6 +9,16 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [projeclerOpen, setProjelerOpen] = useState(false);
+  const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const handleMouseEnter = () => {
+    if (closeTimer.current) clearTimeout(closeTimer.current);
+    setProjelerOpen(true);
+  };
+
+  const handleMouseLeave = () => {
+    closeTimer.current = setTimeout(() => setProjelerOpen(false), 200);
+  };
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -29,9 +39,9 @@ export default function Navbar() {
             <Image
               src="/logo.png"
               alt="Sadıkoğlu İnşaat"
-              width={120}
-              height={60}
-              className="object-contain"
+              width={160}
+              height={44}
+              className="object-contain brightness-0 invert"
             />
           </Link>
 
@@ -51,20 +61,17 @@ export default function Navbar() {
             </Link>
 
             {/* Projeler Dropdown */}
-            <div className="relative">
+            <div className="relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
               <button
-                onMouseEnter={() => setProjelerOpen(true)}
-                onMouseLeave={() => setProjelerOpen(false)}
-                className="flex items-center gap-1 text-white hover:text-gold transition-colors text-sm font-medium tracking-wide"
+                className="flex items-center gap-1 text-white hover:text-gold transition-colors text-sm font-medium tracking-wide pb-1"
               >
-                PROJELERİMİZ <ChevronDown size={16} />
+                PROJELERİMİZ <ChevronDown size={16} className={`transition-transform duration-200 ${projeclerOpen ? "rotate-180" : ""}`} />
               </button>
               {projeclerOpen && (
                 <div
-                  onMouseEnter={() => setProjelerOpen(true)}
-                  onMouseLeave={() => setProjelerOpen(false)}
-                  className="absolute top-full left-0 mt-1 w-52 bg-white shadow-xl border-t-2 border-gold"
+                  className="absolute top-full left-0 pt-1 w-52"
                 >
+                <div className="bg-white shadow-xl border-t-2 border-gold">
                   <Link
                     href="/projeler/guncel"
                     className="block px-5 py-3 text-navy hover:bg-gray-50 hover:text-gold text-sm font-medium transition-colors border-b border-gray-100"
@@ -79,6 +86,7 @@ export default function Navbar() {
                   >
                     Tamamlanan Projeler
                   </Link>
+                </div>
                 </div>
               )}
             </div>

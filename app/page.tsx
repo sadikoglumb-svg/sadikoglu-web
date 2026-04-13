@@ -31,9 +31,9 @@ export default function AnaSayfa() {
             <Image
               src="/logo.png"
               alt="Sadıkoğlu İnşaat"
-              width={180}
-              height={90}
-              className="object-contain mx-auto"
+              width={320}
+              height={88}
+              className="object-contain mx-auto brightness-0 invert"
               priority
             />
           </div>
@@ -42,13 +42,13 @@ export default function AnaSayfa() {
 
           <h1 className="font-serif text-4xl md:text-6xl text-white font-bold mb-6 leading-tight">
             Kadıköy'de{" "}
-            <span className="text-gold">40 Yıllık</span> Güven
+            <span className="text-gold">60 Yıllık</span> Güven
           </h1>
 
           <p className="text-white/75 text-lg md:text-xl mb-10 leading-relaxed max-w-2xl mx-auto">
             1965'ten bu yana Kadıköy'de kat karşılığı inşaat projelerinde
-            güvenilir ortağınız. 90'dan fazla tamamlanan proje ile İstanbul'un
-            köklü müteahhitlik firması.
+            güvenilir ortağınız. 120'nin üzerinde tamamlanan proje ile
+            İstanbul'un köklü müteahhitlik firması.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -79,7 +79,7 @@ export default function AnaSayfa() {
           <div className="grid grid-cols-3 divide-x divide-navy/20">
             {[
               { sayı: "60+", etiket: "Yıllık Deneyim", icon: Award },
-              { sayı: "90+", etiket: "Tamamlanan Proje", icon: Building2 },
+              { sayı: "120+", etiket: "Tamamlanan Proje", icon: Building2 },
               { sayı: "Kadıköy", etiket: "Bölge Uzmanlığı", icon: MapPin },
             ].map(({ sayı, etiket, icon: Icon }) => (
               <div key={etiket} className="flex flex-col items-center py-2 px-4">
