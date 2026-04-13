@@ -10,7 +10,11 @@ export const metadata = {
 };
 
 export default function TamamlananProjelerPage() {
-  const projeler = getTamamlananProjeler();
+  const projeler = getTamamlananProjeler().sort((a, b) => {
+    const tarihA = a.iskanTarihi || "0000-00";
+    const tarihB = b.iskanTarihi || "0000-00";
+    return tarihB.localeCompare(tarihA);
+  });
 
   return (
     <div className="pt-20">

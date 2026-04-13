@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import "leaflet/dist/leaflet.css";
 import type { TamamlananProje } from "@/lib/projects";
 
 interface Props {
@@ -77,12 +78,6 @@ export default function CompletedMap({ projeler }: Props) {
   }, [projeler]);
 
   return (
-    <>
-      <link
-        rel="stylesheet"
-        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-      />
-      <div ref={mapRef} className="w-full h-[450px] z-0 rounded-none" />
-    </>
+    <div ref={mapRef} className="w-full h-[450px] z-0 rounded-none" />
   );
 }
