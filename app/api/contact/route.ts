@@ -24,8 +24,9 @@ export async function POST(req: NextRequest) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        from: "noreply@sadikoglu.com.tr",
+        from: "Sadıkoğlu İnşaat <onboarding@resend.dev>",
         to: ["burak@sadikoglu.com.tr"],
+        reply_to: email || undefined,
         subject: `Yeni İletişim Formu: ${ad}`,
         html: `
           <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
