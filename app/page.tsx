@@ -124,7 +124,7 @@ export default function AnaSayfa() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-gold text-sm font-semibold uppercase tracking-widest mb-3">
-                Kim Biz?
+                Biz Kimiz?
               </p>
               <h2 className="section-title mb-4">
                 Kadıköy'ün Köklü Müteahhidi
