@@ -48,24 +48,6 @@
     ]
   },
   {
-    "id": "fenerbahce-apt-marti",
-    "ad": "Yoğurtçubaşı Sok. Martı Konakları No:16",
-    "adres": "Fenerbahçe Mah., Kadıköy",
-    "koordinat": {
-      "lat": 40.9724,
-      "lng": 29.0415
-    },
-    "baslangicTarihi": "",
-    "iskanTarihi": "2023-01",
-    "bagimsizBolum": 0,
-    "insaatM2": 0,
-    "fotograflar": [
-      "/images/projeler/fenerbahce-apt-marti/foto-1.jpg",
-      "/images/projeler/fenerbahce-apt-marti/foto-2.jpg",
-      "/images/projeler/fenerbahce-apt-marti/foto-3.jpg"
-    ]
-  },
-  {
     "id": "fenerbahce-apt-81",
     "ad": "Dr. Faruk Ayanoğlu Cad. Kale Apt. No:36",
     "adres": "Fenerbahçe Mah., Kadıköy",
@@ -240,6 +222,24 @@
       "/images/projeler/fenerbahce-apt-66/foto-2.jpg",
       "/images/projeler/fenerbahce-apt-66/foto-3.jpg",
       "/images/projeler/fenerbahce-apt-66/foto-4.jpg"
+    ]
+  },
+  {
+    "id": "fenerbahce-apt-marti",
+    "ad": "Yoğurtçubaşı Sok. Martı Konakları No:16",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.9724,
+      "lng": 29.0415
+    },
+    "baslangicTarihi": "",
+    "iskanTarihi": "2005-12",
+    "bagimsizBolum": 0,
+    "insaatM2": 0,
+    "fotograflar": [
+      "/images/projeler/fenerbahce-apt-marti/foto-1.jpg",
+      "/images/projeler/fenerbahce-apt-marti/foto-2.jpg",
+      "/images/projeler/fenerbahce-apt-marti/foto-3.jpg"
     ]
   },
   {

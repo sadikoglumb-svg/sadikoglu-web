@@ -6,8 +6,13 @@ export interface GuncelProje {
   ad: string;
   ilce: string;
   mahalle: string;
+  adres?: string;
+  ada?: string;
+  parsel?: string;
   asama: string;
   tahminiTeslim: string;
+  bagimsizBolum?: number;
+  insaatM2?: number;
   aciklama: string;
   fotograflar: string[];
   koordinat: { lat: number; lng: number };
