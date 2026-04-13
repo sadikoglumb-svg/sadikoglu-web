@@ -1,5 +1,71 @@
 [
   {
+    "id": "fenerbahce-apt-marti",
+    "ad": "Yoğurtçubaşı Sok. Martı Konakları No:16",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.9724,
+      "lng": 29.0415
+    },
+    "baslangicTarihi": "",
+    "iskanTarihi": "2023-01",
+    "bagimsizBolum": 0,
+    "insaatM2": 0,
+    "fotograflar": [
+      "/images/projeler/fenerbahce-apt-marti/foto-1.jpg",
+      "/images/projeler/fenerbahce-apt-marti/foto-2.jpg",
+      "/images/projeler/fenerbahce-apt-marti/foto-3.jpg"
+    ]
+  },
+  {
+    "id": "fenerbahce-apt-karakurt2025",
+    "ad": "Dr. Faruk Ayanoğlu Cad. No:32",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.9685,
+      "lng": 29.0825
+    },
+    "baslangicTarihi": "",
+    "iskanTarihi": "2025-01",
+    "bagimsizBolum": 0,
+    "insaatM2": 0,
+    "fotograflar": [
+      "/images/projeler/fenerbahce-apt-karakurt2025/foto-1.jpg"
+    ]
+  },
+  {
+    "id": "kadikoy-apt-kumbaracilar",
+    "ad": "Kumbaracılar Sok. No:2-4-6",
+    "adres": "Kadıköy",
+    "koordinat": {
+      "lat": 40.9901,
+      "lng": 29.0312
+    },
+    "baslangicTarihi": "",
+    "iskanTarihi": "2025-01",
+    "bagimsizBolum": 0,
+    "insaatM2": 0,
+    "fotograflar": [
+      "/images/projeler/kadikoy-apt-kumbaracilar/foto-1.jpg"
+    ]
+  },
+  {
+    "id": "fenerbahce-apt-meltem2025",
+    "ad": "Hacı Mehmet Efendi Sok. Meltem Apt. No:31",
+    "adres": "Fenerbahçe Mah., Kadıköy",
+    "koordinat": {
+      "lat": 40.9712,
+      "lng": 29.0382
+    },
+    "baslangicTarihi": "",
+    "iskanTarihi": "2025-06",
+    "bagimsizBolum": 0,
+    "insaatM2": 0,
+    "fotograflar": [
+      "/images/projeler/fenerbahce-apt-meltem2025/foto-1.jpg"
+    ]
+  },
+  {
     "id": "erenkoy-apt-1",
     "ad": "Ethem Efendi̇ Cad. Tuncay Üstün Apt No:38",
     "adres": "Erenköy Mah., Kadıköy",
