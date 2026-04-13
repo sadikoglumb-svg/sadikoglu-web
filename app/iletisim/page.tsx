@@ -8,7 +8,7 @@ export const metadata = {
 };
 
 const MAPS_EMBED =
-  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d751.3!2d29.058!3d40.971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDU4JzE1LjYiTiAyOcKwMDMnMjkuMiJF!5e0!3m2!1str!2str!4v1";
+  "https://maps.google.com/maps?q=Ba%C4%9Fdat+Caddesi+No+161+Feneryolu+Kad%C4%B1k%C3%B6y+%C4%B0stanbul&output=embed&hl=tr&z=16";
 
 export default function IletisimPage() {
   return (
@@ -143,7 +143,7 @@ export default function IletisimPage() {
               {/* Google Maps */}
               <div className="border border-gray-200 overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3012.0!2d29.0581!3d40.9711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab879e5a90001%3A0x1234!2sBa%C4%9Fdat%20Cd.%20No%3A141%2C%20Feneryolu%2C%20Kad%C4%B1k%C3%B6y%2F%C4%B0stanbul!5e0!3m2!1str!2str!4v1234567890"
+                  src={MAPS_EMBED}
                   width="100%"
                   height="300"
                   style={{ border: 0 }}
