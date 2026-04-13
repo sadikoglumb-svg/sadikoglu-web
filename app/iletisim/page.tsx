@@ -8,7 +8,7 @@ export const metadata = {
 };
 
 const MAPS_EMBED =
-  "https://maps.google.com/maps?q=Ba%C4%9Fdat+Caddesi+No+161+Feneryolu+Kad%C4%B1k%C3%B6y+%C4%B0stanbul&output=embed&hl=tr&z=16";
+  "https://maps.google.com/maps?q=Ba%C4%9Fdat+Caddesi+No+141+Feneryolu+Kad%C4%B1k%C3%B6y+%C4%B0stanbul&output=embed&hl=tr&z=16";
 
 export default function IletisimPage() {
   return (
