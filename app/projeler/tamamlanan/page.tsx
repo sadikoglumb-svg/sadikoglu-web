@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { MapPin, Calendar, Building2, Maximize2 } from "lucide-react";
 import { getTamamlananProjeler } from "@/lib/projects";
-import CompletedMap from "@/components/CompletedMap";
 
 export const metadata = {
   title: "Tamamlanan Projeler | Sadıkoğlu İnşaat",
@@ -31,24 +30,6 @@ export default function TamamlananProjelerPage() {
           <div className="w-16 h-0.5 bg-gold mt-4" />
           <p className="text-white/60 mt-4 text-sm">
             {projeler.length} tamamlanmış proje — Kadıköy ve çevresinde
-          </p>
-        </div>
-      </section>
-
-      {/* Harita */}
-      <section className="bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-          <div className="flex items-center gap-3 mb-6">
-            <div className="w-5 h-5 bg-gold rotate-45 shrink-0" />
-            <h2 className="font-serif text-2xl text-navy font-bold">
-              Harita Üzerinde Projelerimiz
-            </h2>
-          </div>
-          <div className="border border-gray-200 overflow-hidden">
-            <CompletedMap projeler={projeler} />
-          </div>
-          <p className="text-gray-400 text-xs mt-2">
-            Pin'lere tıklayarak proje bilgilerine ulaşabilirsiniz.
           </p>
         </div>
       </section>
