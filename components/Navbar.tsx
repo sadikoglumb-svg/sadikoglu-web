@@ -37,11 +37,11 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
             <Image
-              src="/logo.png"
+              src="/logo-light.png"
               alt="Sadıkoğlu İnşaat"
               width={160}
               height={44}
-              className="object-contain brightness-0 invert"
+              className="object-contain"
             />
           </Link>
 

@@ -29,11 +29,11 @@ export default function AnaSayfa() {
         <div className="relative z-10 text-center px-6 max-w-4xl mx-auto pt-20">
           <div className="mb-8">
             <Image
-              src="/logo.png"
+              src="/logo-light.png"
               alt="Sadıkoğlu İnşaat"
               width={320}
               height={88}
-              className="object-contain mx-auto brightness-0 invert"
+              className="object-contain mx-auto"
               priority
             />
           </div>
