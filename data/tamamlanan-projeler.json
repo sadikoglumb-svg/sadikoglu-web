@@ -921,7 +921,12 @@
     "iskanTarihi": "2013-06",
     "bagimsizBolum": 39,
     "insaatM2": 5000,
-    "fotograflar": []
+    "fotograflar": [
+      "/images/projeler/fenerbahce-apt-66/foto-1.jpg",
+      "/images/projeler/fenerbahce-apt-66/foto-2.jpg",
+      "/images/projeler/fenerbahce-apt-66/foto-3.jpg",
+      "/images/projeler/fenerbahce-apt-66/foto-4.jpg"
+    ]
   },
   {
     "id": "fenerbahce-apt-67",
@@ -963,7 +968,10 @@
     "iskanTarihi": "2015-05",
     "bagimsizBolum": 58,
     "insaatM2": 8500,
-    "fotograflar": []
+    "fotograflar": [
+      "/images/projeler/fenerbahce-apt-69/foto-1.jpg",
+      "/images/projeler/fenerbahce-apt-69/foto-2.jpg"
+    ]
   },
   {
     "id": "goztepe-apt-70",
@@ -1005,7 +1013,13 @@
     "iskanTarihi": "2017-06",
     "bagimsizBolum": 11,
     "insaatM2": 4500,
-    "fotograflar": []
+    "fotograflar": [
+      "/images/projeler/suadiye-apt-72/foto-1.jpg",
+      "/images/projeler/suadiye-apt-72/foto-2.jpg",
+      "/images/projeler/suadiye-apt-72/foto-3.jpg",
+      "/images/projeler/suadiye-apt-72/foto-4.jpg",
+      "/images/projeler/suadiye-apt-72/foto-5.jpg"
+    ]
   },
   {
     "id": "fenerbahce-apt-73",
@@ -1047,7 +1061,9 @@
     "iskanTarihi": "2018-04",
     "bagimsizBolum": 23,
     "insaatM2": 6000,
-    "fotograflar": []
+    "fotograflar": [
+      "/images/projeler/fenerbahce-apt-75/foto-1.jpg"
+    ]
   },
   {
     "id": "suadiye-apt-76",
@@ -1061,7 +1077,10 @@
     "iskanTarihi": "2019-03",
     "bagimsizBolum": 12,
     "insaatM2": 3000,
-    "fotograflar": []
+    "fotograflar": [
+      "/images/projeler/suadiye-apt-76/foto-1.jpg",
+      "/images/projeler/suadiye-apt-76/foto-2.jpg"
+    ]
   },
   {
     "id": "fenerbahce-apt-77",
@@ -1075,7 +1094,11 @@
     "iskanTarihi": "2019-03",
     "bagimsizBolum": 25,
     "insaatM2": 4500,
-    "fotograflar": []
+    "fotograflar": [
+      "/images/projeler/fenerbahce-apt-77/foto-1.jpg",
+      "/images/projeler/fenerbahce-apt-77/foto-2.jpg",
+      "/images/projeler/fenerbahce-apt-77/foto-3.jpg"
+    ]
   },
   {
     "id": "fenerbahce-apt-78",
@@ -1089,7 +1112,10 @@
     "iskanTarihi": "2020-03",
     "bagimsizBolum": 21,
     "insaatM2": 4500,
-    "fotograflar": []
+    "fotograflar": [
+      "/images/projeler/fenerbahce-apt-78/foto-1.jpg",
+      "/images/projeler/fenerbahce-apt-78/foto-2.jpg"
+    ]
   },
   {
     "id": "fenerbahce-apt-79",
@@ -1103,7 +1129,10 @@
     "iskanTarihi": "2021-05",
     "bagimsizBolum": 18,
     "insaatM2": 2700,
-    "fotograflar": []
+    "fotograflar": [
+      "/images/projeler/fenerbahce-apt-79/foto-1.jpg",
+      "/images/projeler/fenerbahce-apt-79/foto-2.jpg"
+    ]
   },
   {
     "id": "goztepe-apt-80",
@@ -1117,7 +1146,11 @@
     "iskanTarihi": "2022-04",
     "bagimsizBolum": 31,
     "insaatM2": 8000,
-    "fotograflar": []
+    "fotograflar": [
+      "/images/projeler/goztepe-apt-80/foto-1.jpg",
+      "/images/projeler/goztepe-apt-80/foto-2.jpg",
+      "/images/projeler/goztepe-apt-80/foto-3.jpg"
+    ]
   },
   {
     "id": "fenerbahce-apt-81",
@@ -1131,7 +1164,11 @@
     "iskanTarihi": "2022-09",
     "bagimsizBolum": 51,
     "insaatM2": 9200,
-    "fotograflar": []
+    "fotograflar": [
+      "/images/projeler/fenerbahce-apt-81/foto-1.jpg",
+      "/images/projeler/fenerbahce-apt-81/foto-2.jpg",
+      "/images/projeler/fenerbahce-apt-81/foto-3.jpg"
+    ]
   },
   {
     "id": "feneryolu-apt-82",
