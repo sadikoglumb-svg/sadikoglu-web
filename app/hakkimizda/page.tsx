@@ -5,7 +5,7 @@ import { Award, Shield, Users, Building2, ChevronRight } from "lucide-react";
 export const metadata = {
   title: "Hakkımızda | Sadıkoğlu İnşaat",
   description:
-    "Sadıkoğlu İnşaat hakkında bilgi edinin. 1965'ten bu yana Kadıköy'de güvenilir inşaat hizmetleri.",
+    "1945'ten bu yana süregelen bir inşaat geleneği. Mehmet Sadıkoğlu'nun kurduğu firma, bugün üçüncü nesille Kadıköy'de hizmet vermeye devam ediyor.",
 };
 
 const degerler = [
@@ -13,25 +13,52 @@ const degerler = [
     icon: Shield,
     baslik: "Güvenilirlik",
     aciklama:
-      "60 yılı aşkın tecrübemizle arsa sahiplerimize verilen sözler her zaman tutulmuştur. Sözleşme şeffaflığı önceliğimizdir.",
+      "Üç nesildir süregelen iş anlayışımızda arsa sahiplerimize verilen sözler her zaman tutulmuştur. Sözleşme şeffaflığı önceliğimizdir.",
   },
   {
     icon: Award,
     baslik: "Kalite",
     aciklama:
-      "Kullanılan malzemelerden işçiliğe kadar her aşamada A+ kalite standardını benimseriz.",
+      "Kullanılan malzemelerden işçiliğe kadar her aşamada yüksek kalite standardını benimseriz. Her proje, adımıza layık olmalıdır.",
   },
   {
     icon: Users,
     baslik: "Ortaklık Anlayışı",
     aciklama:
-      "Arsa sahibini ortak olarak gören yaklaşımımızla her iki tarafın menfaatini dengeleriz.",
+      "Arsa sahibini ortak olarak gören yaklaşımımızla her iki tarafın menfaatini dengeleriz. Kazanan taraf tek değil, iki taraftır.",
   },
   {
     icon: Building2,
     baslik: "Bölge Uzmanlığı",
     aciklama:
-      "Kadıköy ve çevresindeki imar mevzuatı, piyasa değerleri ve bölge dinamikleri konusunda derin bilgiye sahibiz.",
+      "Kadıköy'ün her mahallesini, imar mevzuatını ve piyasa dinamiklerini 60 yıllık birikimle biliriz. Bu bölge bize yurt gibidir.",
+  },
+];
+
+const zaman_cizelgesi = [
+  {
+    yil: "1945",
+    baslik: "İstanbul'a İlk Adım",
+    aciklama:
+      "Mehmet Sadıkoğlu, Anadolu'dan İstanbul'a gelir ve inşaat sektöründe çalışmaya başlar. Şehrin yeniden şekillendiği bu yıllarda temelleri atılır.",
+  },
+  {
+    yil: "1965",
+    baslik: "Bağdat Caddesi'nde Kuruluş",
+    aciklama:
+      "Mehmet Sadıkoğlu, üç kardeşiyle birlikte Bağdat Caddesi'nde ilk inşaatlarını yapar. Kadıköy'de bir ailenin inşaat serüveni başlar.",
+  },
+  {
+    yil: "1985",
+    baslik: "Sadıkoğlu İnşaat'ın Kuruluşu",
+    aciklama:
+      "Kardeşlerinden bağımsızlaşan Mehmet Sadıkoğlu, bugünkü şirketimizin temellerini atar ve Kadıköy'de kendi adıyla yoluna devam eder.",
+  },
+  {
+    yil: "Bugün",
+    baslik: "Üçüncü Nesil",
+    aciklama:
+      "Oğulları Mustafa Nuri Sadıkoğlu (İnşaat Mühendisi) ve Kadir Sadıkoğlu ile torunu Mustafa Burak Sadıkoğlu, aynı değerlerle şirketi yaşatmaya devam ediyor.",
   },
 ];
 
@@ -50,7 +77,7 @@ export default function HakkimizdaPage() {
         </div>
       </section>
 
-      {/* Ana İçerik */}
+      {/* Ana Hikaye */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-start">
@@ -59,36 +86,47 @@ export default function HakkimizdaPage() {
                 Firmamız
               </p>
               <h2 className="section-title mb-4">
-                60 Yılda Binlerce Aileye Ev Sahibi Olduk
+                Üç Neslin Emekle Büyüttüğü Bir Marka
               </h2>
               <div className="gold-divider" />
 
-              {/* PLACEHOLDER — içerik sonra yazılacak */}
-              <div className="mt-6 space-y-4 text-gray-600 leading-relaxed">
+              <div className="mt-6 space-y-5 text-gray-600 leading-relaxed">
                 <p>
-                  [Bu bölüm için Hakkımızda yazısını birlikte hazırlayacağız.
-                  Firma tarihçesi, kuruluş hikayesi ve değerler buraya eklenecek.]
+                  Sadıkoğlu İnşaat'ın hikâyesi, 1945 yılında bir gencin
+                  Anadolu'dan İstanbul'a adım atmasıyla başlar. Mehmet
+                  Sadıkoğlu, bu şehirde inşaat sektörüne girer ve iki
+                  on yıl boyunca sektörü içten öğrenir.
                 </p>
                 <p>
-                  Mehmet Sadıkoğlu tarafından 1965 yılında kurulan firmamız,
-                  Kadıköy'de altmış yılı aşkın bir deneyimle kat karşılığı
-                  inşaat alanında hizmet vermektedir.
+                  1965'te iki kardeşiyle birlikte Bağdat Caddesi'nde ilk
+                  projesini hayata geçirir. Kadıköy ile kurulan bu derin
+                  bağ, o günden bu yana hiç kopmaz.
                 </p>
                 <p>
-                  Bugüne kadar tamamladığımız 90'dan fazla projede,
-                  Kadıköy'ün farklı mahallelerinde binlerce aileye modern
-                  ve kaliteli yaşam alanları kazandırdık.
+                  1985 yılında kendi firmasını kuran Mehmet Sadıkoğlu,
+                  bugüne kadar Kadıköy'ün dört bir yanında <strong>120'nin
+                  üzerinde inşaat</strong> tamamlar. Her projede aynı ilke:
+                  arsa sahibine söz verilirse o söz tutulur.
+                </p>
+                <p>
+                  Bugün şirket; oğulları inşaat mühendisi <strong>Mustafa
+                  Nuri Sadıkoğlu</strong> ve <strong>Kadir Sadıkoğlu</strong> ile
+                  torunu <strong>Mustafa Burak Sadıkoğlu</strong> tarafından
+                  aynı değerler ve aynı bölge odağıyla yönetilmektedir.
                 </p>
               </div>
 
-              <div className="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-4">
+              <div className="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-4">
                 {[
                   { sayi: "1965", etiket: "Kuruluş Yılı" },
                   { sayi: "60+", etiket: "Yıllık Deneyim" },
-                  { sayi: "90+", etiket: "Tamamlanan Proje" },
+                  { sayi: "120+", etiket: "Tamamlanan Proje" },
                   { sayi: "Kadıköy", etiket: "Faaliyet Bölgesi" },
                 ].map(({ sayi, etiket }) => (
-                  <div key={etiket} className="text-center bg-gray-50 p-4 border border-gray-100">
+                  <div
+                    key={etiket}
+                    className="text-center bg-gray-50 p-4 border border-gray-100"
+                  >
                     <p className="font-serif text-2xl font-bold text-navy">{sayi}</p>
                     <p className="text-gray-500 text-xs mt-1">{etiket}</p>
                   </div>
@@ -103,22 +141,69 @@ export default function HakkimizdaPage() {
               </Link>
             </div>
 
-            {/* Logo */}
-            <div className="flex items-center justify-center bg-navy/5 p-12">
+            {/* Logo / Görsel */}
+            <div className="flex items-center justify-center bg-navy p-16 h-full min-h-[320px]">
               <Image
                 src="/logo.png"
                 alt="Sadıkoğlu İnşaat Logo"
-                width={280}
-                height={140}
-                className="object-contain"
+                width={260}
+                height={130}
+                className="object-contain brightness-0 invert"
               />
             </div>
           </div>
         </div>
       </section>
 
+      {/* Zaman Çizelgesi */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-14">
+            <p className="text-gold text-sm font-semibold uppercase tracking-widest mb-3">
+              Geçmişten Bugüne
+            </p>
+            <h2 className="section-title">Tarihçemiz</h2>
+            <div className="gold-divider mx-auto" />
+          </div>
+
+          <div className="relative">
+            {/* Dikey çizgi */}
+            <div className="absolute left-1/2 top-0 bottom-0 w-px bg-gold/30 hidden lg:block -translate-x-1/2" />
+
+            <div className="space-y-10">
+              {zaman_cizelgesi.map(({ yil, baslik, aciklama }, i) => (
+                <div
+                  key={yil}
+                  className={`flex flex-col lg:flex-row items-center gap-6 lg:gap-12 ${
+                    i % 2 === 1 ? "lg:flex-row-reverse" : ""
+                  }`}
+                >
+                  {/* İçerik kutusu */}
+                  <div className="flex-1 bg-white border border-gray-100 p-7 shadow-sm">
+                    <h3 className="font-serif text-xl font-bold text-navy mb-2">
+                      {baslik}
+                    </h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">{aciklama}</p>
+                  </div>
+
+                  {/* Yıl baloncuğu */}
+                  <div className="flex-shrink-0 w-20 h-20 rounded-full bg-navy flex items-center justify-center border-4 border-gold z-10">
+                    <span className="font-serif text-gold font-bold text-sm text-center leading-tight">
+                      {yil}
+                    </span>
+                  </div>
+
+                  {/* Karşı taraf boşluk */}
+                  <div className="flex-1 hidden lg:block" />
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Değerlerimiz */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <p className="text-gold text-sm font-semibold uppercase tracking-widest mb-3">
@@ -154,7 +239,7 @@ export default function HakkimizdaPage() {
             Tamamlanan Projelerimizi İnceleyin
           </h2>
           <p className="text-white/60 mb-8">
-            90'dan fazla tamamlanmış projemizi harita üzerinde görüntüleyin.
+            120'nin üzerinde tamamlanmış projemizi harita üzerinde görüntüleyin.
           </p>
           <Link
             href="/projeler/tamamlanan"
