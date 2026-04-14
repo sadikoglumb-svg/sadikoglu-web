@@ -56,12 +56,13 @@ export default function GuncelProjelerPage() {
                 >
                   {/* Fotoğraf */}
                   {proje.fotograflar.length > 0 ? (
-                    <div className="relative aspect-[4/3] overflow-hidden">
+                    <div className="relative bg-gray-100 overflow-hidden flex items-center justify-center">
                       <Image
                         src={proje.fotograflar[0]}
                         alt={proje.ad}
-                        fill
-                        className="object-cover group-hover:scale-105 transition-transform duration-500"
+                        width={600}
+                        height={500}
+                        className="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-500"
                       />
                       <span className={`absolute top-3 right-3 text-xs px-2.5 py-1 border rounded-full font-medium ${ASAMA_COLORS[proje.asama] || "bg-gray-100 text-gray-700 border-gray-200"}`}>
                         {proje.asama}

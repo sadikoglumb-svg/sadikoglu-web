@@ -16,13 +16,14 @@ export default function ProjeGaleri({ fotograflar, ad }: Props) {
   return (
     <div className="mb-8">
       {/* Ana fotoğraf */}
-      <div className="relative aspect-video overflow-hidden bg-gray-100 mb-3">
+      <div className="relative bg-gray-100 mb-3 flex items-center justify-center min-h-[200px]">
         <Image
           key={aktif}
           src={fotograflar[aktif]}
           alt={`${ad} - Fotoğraf ${aktif + 1}`}
-          fill
-          className="object-cover transition-opacity duration-300"
+          width={900}
+          height={700}
+          className="w-full h-auto object-contain transition-opacity duration-300"
           priority={aktif === 0}
         />
         {/* Sayaç */}
@@ -38,7 +39,7 @@ export default function ProjeGaleri({ fotograflar, ad }: Props) {
             <button
               key={i}
               onClick={() => setAktif(i)}
-              className={`relative shrink-0 w-20 h-14 overflow-hidden border-2 transition-all ${
+              className={`relative shrink-0 w-20 h-14 overflow-hidden border-2 transition-all bg-gray-100 flex items-center justify-center ${
                 i === aktif
                   ? "border-gold opacity-100"
                   : "border-transparent opacity-60 hover:opacity-90"
@@ -47,8 +48,9 @@ export default function ProjeGaleri({ fotograflar, ad }: Props) {
               <Image
                 src={foto}
                 alt={`${ad} - ${i + 1}`}
-                fill
-                className="object-cover"
+                width={80}
+                height={56}
+                className="w-full h-full object-contain"
               />
             </button>
           ))}
