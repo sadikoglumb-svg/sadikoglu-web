@@ -71,10 +71,10 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-gold shrink-0" />
                 <a
-                  href="mailto:burak@sadikoglu.com.tr"
+                  href="mailto:info@sadikoglu.com.tr"
                   className="text-white/70 hover:text-gold text-sm transition-colors"
                 >
-                  burak@sadikoglu.com.tr
+                  info@sadikoglu.com.tr
                 </a>
               </li>
               <li className="flex items-center gap-3">

@@ -80,10 +80,10 @@ export default function IletisimPage() {
                         E-posta
                       </p>
                       <a
-                        href="mailto:burak@sadikoglu.com.tr"
+                        href="mailto:info@sadikoglu.com.tr"
                         className="text-navy hover:text-gold font-medium transition-colors"
                       >
-                        burak@sadikoglu.com.tr
+                        info@sadikoglu.com.tr
                       </a>
                     </div>
                   </li>

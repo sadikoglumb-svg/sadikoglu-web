@@ -25,7 +25,7 @@ export async function POST(req: NextRequest) {
       },
       body: JSON.stringify({
         from: "Sadıkoğlu İnşaat <onboarding@resend.dev>",
-        to: ["burak@sadikoglu.com.tr"],
+        to: ["info@sadikoglu.com.tr"],
         reply_to: email || undefined,
         subject: `Yeni İletişim Formu: ${ad}`,
         html: `
