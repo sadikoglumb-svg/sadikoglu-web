@@ -50,13 +50,12 @@ export default function TamamlananProjelerPage() {
               >
                 {/* Fotoğraf veya Placeholder */}
                 {proje.fotograflar.length > 0 ? (
-                  <div className="relative bg-gray-100 overflow-hidden flex items-center justify-center">
+                  <div className="relative aspect-[4/3] bg-gray-100 overflow-hidden flex items-center justify-center">
                     <Image
                       src={proje.fotograflar[0]}
                       alt={proje.ad}
-                      width={400}
-                      height={350}
-                      className="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-500"
+                      fill
+                      className="object-contain group-hover:scale-105 transition-transform duration-500"
                     />
                   </div>
                 ) : (

@@ -16,14 +16,13 @@ export default function ProjeGaleri({ fotograflar, ad }: Props) {
   return (
     <div className="mb-8">
       {/* Ana fotoğraf */}
-      <div className="relative bg-gray-100 mb-3 flex items-center justify-center min-h-[200px]">
+      <div className="relative aspect-[4/3] bg-gray-100 mb-3 flex items-center justify-center overflow-hidden">
         <Image
           key={aktif}
           src={fotograflar[aktif]}
           alt={`${ad} - Fotoğraf ${aktif + 1}`}
-          width={900}
-          height={700}
-          className="w-full h-auto object-contain transition-opacity duration-300"
+          fill
+          className="object-contain transition-opacity duration-300"
           priority={aktif === 0}
         />
         {/* Sayaç */}
