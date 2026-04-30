@@ -3,9 +3,9 @@ import Link from "next/link";
 import { Award, Shield, Users, Building2, ChevronRight } from "lucide-react";
 
 export const metadata = {
-  title: "Hakkımızda | Sadıkoğlu İnşaat",
+  title: "Hakkımızda | Kadıköy'de 60 Yıllık Müteahhit | Sadıkoğlu İnşaat",
   description:
-    "1945'ten bu yana süregelen bir inşaat geleneği. Mehmet Sadıkoğlu'nun kurduğu firma, bugün üçüncü nesille Kadıköy'de hizmet vermeye devam ediyor.",
+    "1945'ten bu yana Kadıköy'de kat karşılığı inşaat. Mehmet Sadıkoğlu'nun kurduğu firma, üçüncü nesille 90+ projeyi tamamladı.",
 };
 
 const degerler = [

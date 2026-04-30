@@ -3,9 +3,9 @@ import { MapPin, Calendar, Building2, Maximize2 } from "lucide-react";
 import { getTamamlananProjeler } from "@/lib/projects";
 
 export const metadata = {
-  title: "Tamamlanan Projeler | Sadıkoğlu İnşaat",
+  title: "90+ Tamamlanan Proje | Kadıköy Müteahhit Referansları | Sadıkoğlu İnşaat",
   description:
-    "Sadıkoğlu İnşaat'ın 90'dan fazla tamamlanmış inşaat projesini harita üzerinde ve liste olarak inceleyin.",
+    "Sadıkoğlu İnşaat'ın Kadıköy, Fenerbahçe, Göztepe ve çevresinde tamamladığı 90+ kat karşılığı inşaat projesini inceleyin.",
 };
 
 export default function TamamlananProjelerPage() {

@@ -12,9 +12,9 @@ const ASAMA_COLORS: Record<string, string> = {
 };
 
 export const metadata = {
-  title: "Güncel Projelerimiz | Sadıkoğlu İnşaat",
+  title: "Devam Eden Projeler | Kadıköy Kat Karşılığı İnşaat | Sadıkoğlu İnşaat",
   description:
-    "Sadıkoğlu İnşaat'ın devam eden güncel inşaat projeleri. Kadıköy'de aktif projelerimizi inceleyin.",
+    "Sadıkoğlu İnşaat'ın Kadıköy'de devam eden güncel inşaat projeleri. Kat karşılığı inşaat için aşama aşama takip edin.",
 };
 
 export default function GuncelProjelerPage() {

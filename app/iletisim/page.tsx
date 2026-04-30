@@ -2,9 +2,9 @@ import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata = {
-  title: "İletişim | Sadıkoğlu İnşaat",
+  title: "İletişim | Kadıköy Kat Karşılığı İnşaat Teklifi | Sadıkoğlu İnşaat",
   description:
-    "Sadıkoğlu İnşaat ile iletişime geçin. Kadıköy'de kat karşılığı inşaat için teklif alın.",
+    "Kadıköy'de kat karşılığı inşaat teklifi için Sadıkoğlu İnşaat ile iletişime geçin. Feneryolu Mah., Bağdat Cad. No:141.",
 };
 
 const MAPS_EMBED =

@@ -56,19 +56,19 @@ export default function ProjectSlideshow({ projeler }: Props) {
 
                   {/* Fotoğraf */}
                   {proje.fotograflar.length > 0 ? (
-                    <div className="relative aspect-[4/3] bg-gray-100 overflow-hidden flex items-center justify-center">
+                    <div className="relative aspect-[4/3] overflow-hidden">
                       <Image
                         src={proje.fotograflar[0]}
                         alt={proje.ad}
                         fill
-                        className="object-contain group-hover:scale-105 transition-transform duration-500"
+                        className="object-cover group-hover:scale-105 transition-transform duration-500"
                       />
                       <span className={`absolute top-3 right-3 text-xs px-2.5 py-1 font-medium rounded-full ${ASAMA_COLORS[proje.asama] || "bg-gray-100 text-gray-700"}`}>
                         {proje.asama}
                       </span>
                     </div>
                   ) : (
-                    <div className="aspect-[16/9] bg-navy/5 flex items-center justify-center border-b border-gray-100 relative">
+                    <div className="aspect-[4/3] bg-navy/5 flex items-center justify-center border-b border-gray-100 relative">
                       <span className={`absolute top-3 right-3 text-xs px-2.5 py-1 font-medium rounded-full ${ASAMA_COLORS[proje.asama] || "bg-gray-100 text-gray-700"}`}>
                         {proje.asama}
                       </span>
