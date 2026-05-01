@@ -14,11 +14,18 @@ const config: Config = {
           light: "#243f66",
           dark: "#122038",
         },
+        dark: {
+          DEFAULT: "#0D1B2A",
+          mid:    "#152233",
+          border: "#1E3A5F",
+        },
         gold: {
           DEFAULT: "#C9A847",
           light: "#E8D48B",
           dark: "#a88830",
         },
+        offwhite: "#F5F0E8",
+        muted: "#8A9BB0",
       },
       fontFamily: {
         sans: ["Inter", "system-ui", "sans-serif"],

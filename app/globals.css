@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #1B2F4E;
+  --background: #0D1B2A;
+  --foreground: #F5F0E8;
 }
 
 body {
@@ -16,22 +16,32 @@ body {
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+  .text-balance { text-wrap: balance; }
 }
 
 @layer components {
   .btn-primary {
-    @apply bg-gold hover:bg-gold-dark text-navy font-semibold px-6 py-3 transition-colors duration-200 inline-block;
+    @apply bg-gold hover:bg-gold-light text-dark font-semibold px-7 py-3.5 rounded-lg transition-all duration-200 inline-flex items-center gap-2 text-sm tracking-wide;
   }
   .btn-outline {
-    @apply border-2 border-gold text-gold hover:bg-gold hover:text-navy font-semibold px-6 py-3 transition-colors duration-200 inline-block;
+    @apply border border-offwhite/40 text-offwhite hover:border-gold hover:text-gold font-medium px-7 py-3.5 rounded-lg transition-all duration-200 inline-flex items-center gap-2 text-sm tracking-wide;
+  }
+  .btn-ghost {
+    @apply border border-gold/50 text-gold hover:bg-gold hover:text-dark font-medium px-7 py-3.5 rounded-lg transition-all duration-200 inline-flex items-center gap-2 text-sm tracking-wide;
   }
   .section-title {
-    @apply font-serif text-3xl md:text-4xl text-navy font-bold;
+    @apply font-serif text-3xl md:text-4xl text-offwhite font-bold;
+  }
+  .section-label {
+    @apply text-gold text-xs font-semibold uppercase tracking-[0.2em] mb-3 block;
   }
   .gold-divider {
-    @apply w-16 h-1 bg-gold my-4;
+    @apply w-12 h-px bg-gold/60 my-5;
+  }
+  .card-dark {
+    @apply bg-dark-mid border border-dark-border rounded-xl overflow-hidden;
+  }
+  .stat-card {
+    @apply bg-dark-mid border border-dark-border rounded-xl p-6 relative overflow-hidden;
   }
 }

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Building2, Award, MapPin, ChevronRight } from "lucide-react";
+import { Building2, Award, MapPin, ChevronRight, ArrowRight } from "lucide-react";
 import { getGuncelProjeler } from "@/lib/projects";
 import ProjectSlideshow from "@/components/ProjectSlideshow";
 
@@ -8,161 +8,174 @@ export default function AnaSayfa() {
   const guncelProjeler = getGuncelProjeler().filter((p) => p.yayinda);
 
   return (
-    <div>
-      {/* Hero */}
-      <section className="relative min-h-screen flex items-center justify-center bg-navy overflow-hidden">
-        {/* Arka plan desen */}
-        <div className="absolute inset-0 opacity-5">
-          <div
-            className="w-full h-full"
+    <div className="bg-dark">
+
+      {/* ── HERO ─────────────────────────────────────────────── */}
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-dark">
+
+        {/* Architectural grid lines */}
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute inset-0"
             style={{
-              backgroundImage:
-                "repeating-linear-gradient(45deg, #C9A847 0, #C9A847 1px, transparent 0, transparent 50%)",
-              backgroundSize: "20px 20px",
+              backgroundImage: `
+                linear-gradient(to right, rgba(201,168,71,0.04) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(201,168,71,0.04) 1px, transparent 1px)
+              `,
+              backgroundSize: "80px 80px",
             }}
+          />
+          {/* Radial glow center */}
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] rounded-full"
+            style={{ background: "radial-gradient(circle, rgba(201,168,71,0.06) 0%, transparent 70%)" }}
           />
         </div>
 
-        {/* Gold accent sol kenar */}
-        <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-gold" />
+        {/* Gold left bar */}
+        <div className="absolute left-0 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-gold/60 to-transparent" />
 
-        <div className="relative z-10 text-center px-6 max-w-4xl mx-auto pt-20">
-          <div className="mb-8">
+        {/* Content */}
+        <div className="relative z-10 text-center px-6 max-w-5xl mx-auto pt-24">
+
+          {/* Logo */}
+          <div className="mb-10">
             <Image
               src="/logo-light.png"
               alt="Sadıkoğlu İnşaat"
-              width={320}
-              height={88}
-              className="object-contain mx-auto"
+              width={280}
+              height={77}
+              className="object-contain mx-auto opacity-95"
               priority
             />
           </div>
 
-          <div className="w-20 h-0.5 bg-gold mx-auto mb-6" />
+          {/* Label */}
+          <span className="section-label">Kadıköy · İstanbul · Est. 1965</span>
 
-          <h1 className="font-serif text-4xl md:text-6xl text-white font-bold mb-6 leading-tight">
+          {/* Heading */}
+          <h1 className="font-serif text-5xl md:text-7xl text-offwhite font-bold mb-6 leading-[1.1] tracking-tight">
             Kadıköy'de{" "}
-            <span className="text-gold">60 Yıllık</span> Güven
+            <span className="text-gold italic">60 Yıllık</span>
+            <br />Güven
           </h1>
 
-          <p className="text-white/75 text-lg md:text-xl mb-10 leading-relaxed max-w-2xl mx-auto">
-            1965'ten bu yana Kadıköy'de kat karşılığı inşaat projelerinde
-            güvenilir ortağınız. 120'nin üzerinde tamamlanan proje ile
-            İstanbul'un köklü müteahhitlik firması.
+          {/* Divider */}
+          <div className="w-16 h-px bg-gold/50 mx-auto mb-8" />
+
+          <p className="text-muted text-lg md:text-xl mb-12 leading-relaxed max-w-2xl mx-auto font-light">
+            1965'ten bu yana Kadıköy ve çevresinde kat karşılığı inşaat
+            projelerinde güvenilir ortağınız. 120'nin üzerinde tamamlanan
+            proje ile İstanbul'un köklü müteahhitlik firması.
           </p>
 
+          {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/projeler/guncel"
-              className="bg-gold hover:bg-gold-dark text-navy font-semibold px-8 py-4 text-sm tracking-wide transition-colors inline-flex items-center gap-2"
-            >
-              PROJELERİMİZİ İNCELEYİN <ChevronRight size={16} />
+            <Link href="/projeler/guncel" className="btn-primary">
+              Projelerimizi İnceleyin <ArrowRight size={15} />
             </Link>
-            <Link
-              href="/iletisim"
-              className="border-2 border-white text-white hover:bg-white hover:text-navy font-semibold px-8 py-4 text-sm tracking-wide transition-colors"
-            >
-              BİZE ULAŞIN
+            <Link href="/iletisim" className="btn-outline">
+              Bize Ulaşın
             </Link>
           </div>
         </div>
 
-        {/* Aşağı scroll indikatörü */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/50">
-          <div className="w-px h-12 bg-gradient-to-b from-transparent to-gold" />
+        {/* Scroll indicator */}
+        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3">
+          <span className="text-muted text-xs tracking-[0.2em] uppercase">Keşfet</span>
+          <div className="w-px h-12 bg-gradient-to-b from-gold/60 to-transparent" />
         </div>
       </section>
 
-      {/* Sayılar Bandı */}
-      <section className="bg-gold py-10">
+      {/* ── STATS ────────────────────────────────────────────── */}
+      <section className="border-y border-dark-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-3 divide-x divide-navy/20">
+          <div className="grid grid-cols-3 divide-x divide-dark-border">
             {[
-              { sayı: "60+", etiket: "Yıllık Deneyim", icon: Award },
-              { sayı: "120+", etiket: "Tamamlanan Proje", icon: Building2 },
-              { sayı: "Kadıköy", etiket: "Bölge Uzmanlığı", icon: MapPin },
-            ].map(({ sayı, etiket, icon: Icon }) => (
-              <div key={etiket} className="flex flex-col items-center py-2 px-4">
-                <Icon size={22} className="text-navy mb-2 opacity-70" />
-                <p className="font-serif text-3xl font-bold text-navy">{sayı}</p>
-                <p className="text-navy/70 text-sm font-medium mt-1">{etiket}</p>
+              { value: "60+",     label: "Yıllık Deneyim",    sub: "1965'ten bu yana" },
+              { value: "120+",    label: "Tamamlanan Proje",  sub: "Kadıköy ve çevresi" },
+              { value: "Kadıköy", label: "Bölge Uzmanlığı",   sub: "3. nesil müteahhit" },
+            ].map(({ value, label, sub }) => (
+              <div key={label} className="flex flex-col items-center py-10 px-4 text-center group">
+                <p className="font-serif text-4xl md:text-5xl font-bold text-gold mb-2 group-hover:scale-105 transition-transform duration-300">
+                  {value}
+                </p>
+                <p className="text-offwhite font-medium text-sm mb-1">{label}</p>
+                <p className="text-muted text-xs">{sub}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Güncel Projeler Slideshow */}
-      <section className="bg-gray-50 py-20">
+      {/* ── GÜNCEL PROJELER ──────────────────────────────────── */}
+      <section className="py-24 bg-dark">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <p className="text-gold text-sm font-semibold uppercase tracking-widest mb-3">
-              Devam Eden Çalışmalarımız
-            </p>
-            <h2 className="section-title mb-4">Güncel Projelerimiz</h2>
-            <div className="gold-divider mx-auto" />
-          </div>
-
-          <div className="max-w-lg mx-auto">
-            <ProjectSlideshow projeler={guncelProjeler} />
-          </div>
-
-          <div className="text-center mt-10">
+          <div className="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
+            <div>
+              <span className="section-label">Devam Eden Çalışmalarımız</span>
+              <h2 className="section-title">Güncel Projelerimiz</h2>
+              <div className="gold-divider" />
+            </div>
             <Link
               href="/projeler/guncel"
-              className="inline-flex items-center gap-2 border-2 border-navy text-navy hover:bg-navy hover:text-white font-semibold px-6 py-3 text-sm transition-colors"
+              className="text-gold hover:text-gold-light text-sm font-medium flex items-center gap-2 transition-colors group whitespace-nowrap"
             >
-              Tüm Güncel Projeler <ChevronRight size={16} />
+              Tüm projeleri gör
+              <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
             </Link>
+          </div>
+
+          <div className="max-w-sm mx-auto md:max-w-xl">
+            <ProjectSlideshow projeler={guncelProjeler} />
           </div>
         </div>
       </section>
 
-      {/* Hakkımızda Teaser */}
-      <section className="py-20 bg-white">
+      {/* ── HAKKIMIZDA TEASER ────────────────────────────────── */}
+      <section className="py-24 bg-dark-mid border-y border-dark-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+
+            {/* Sol — Metin */}
             <div>
-              <p className="text-gold text-sm font-semibold uppercase tracking-widest mb-3">
-                Biz Kimiz?
-              </p>
-              <h2 className="section-title mb-4">
-                Kadıköy'ün Köklü Müteahhidi
+              <span className="section-label">Biz Kimiz?</span>
+              <h2 className="section-title mb-5">
+                Kadıköy'ün<br />Köklü Müteahhidi
               </h2>
               <div className="gold-divider" />
-              <p className="text-gray-600 mt-6 leading-relaxed">
+              <p className="text-muted mt-6 leading-relaxed font-light">
                 Mehmet Sadıkoğlu tarafından 1965 yılında kurulan firmamız,
                 altmış yılı aşkın deneyimiyle Kadıköy ve çevresinde kat
                 karşılığı inşaat alanında güvenilir çözümler sunmaktadır.
               </p>
-              <p className="text-gray-600 mt-4 leading-relaxed">
-                Her projede arsa sahiplerimizin beklentilerini en yüksek kalite
-                standartlarıyla buluşturarak İstanbul'un siluetine değer katan
-                yapılar inşa ediyoruz.
+              <p className="text-muted mt-4 leading-relaxed font-light">
+                Her projede arsa sahiplerimizin beklentilerini en yüksek
+                kalite standartlarıyla buluşturarak İstanbul'un siluetine
+                değer katan yapılar inşa ediyoruz.
               </p>
               <Link
                 href="/hakkimizda"
-                className="inline-flex items-center gap-2 mt-8 text-navy font-semibold hover:text-gold transition-colors"
+                className="inline-flex items-center gap-2 mt-8 text-gold hover:text-gold-light font-medium text-sm transition-colors group"
               >
-                Daha Fazla Bilgi <ChevronRight size={16} />
+                Daha Fazla Bilgi
+                <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
               </Link>
             </div>
 
+            {/* Sağ — Stat kartları */}
             <div className="grid grid-cols-2 gap-4">
               {[
-                { baslik: "Tamamlanan Proje", deger: "90+" },
-                { baslik: "Yıl Deneyim", deger: "60+" },
-                { baslik: "Bölge", deger: "Kadıköy" },
-                { baslik: "Uzmanlik", deger: "Kat Karşılığı" },
-              ].map(({ baslik, deger }) => (
-                <div
-                  key={baslik}
-                  className="bg-gray-50 border-l-4 border-gold p-5"
-                >
-                  <p className="font-serif text-2xl font-bold text-navy">
-                    {deger}
+                { value: "90+",           label: "Tamamlanan Proje" },
+                { value: "60+",           label: "Yıl Deneyim" },
+                { value: "Kadıköy",       label: "Faaliyet Bölgesi" },
+                { value: "Kat Karşılığı", label: "Uzmanlık Alanı" },
+              ].map(({ value, label }) => (
+                <div key={label} className="stat-card group">
+                  {/* Gold left accent */}
+                  <div className="absolute left-0 top-4 bottom-4 w-0.5 bg-gold/60 rounded-full" />
+                  <p className="font-serif text-2xl md:text-3xl font-bold text-offwhite mb-1 group-hover:text-gold transition-colors duration-300">
+                    {value}
                   </p>
-                  <p className="text-gray-500 text-sm mt-1">{baslik}</p>
+                  <p className="text-muted text-xs font-medium uppercase tracking-wider">{label}</p>
                 </div>
               ))}
             </div>
@@ -170,34 +183,40 @@ export default function AnaSayfa() {
         </div>
       </section>
 
-      {/* İletişim CTA */}
-      <section className="bg-navy py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="font-serif text-3xl md:text-4xl text-white font-bold mb-4">
-            Arsanız İçin Ücretsiz Değerleme Yapın
+      {/* ── CTA ──────────────────────────────────────────────── */}
+      <section className="py-24 bg-dark relative overflow-hidden">
+        {/* Background glow */}
+        <div className="absolute inset-0 pointer-events-none"
+          style={{ background: "radial-gradient(ellipse at center bottom, rgba(201,168,71,0.07) 0%, transparent 65%)" }}
+        />
+
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <span className="section-label">Fırsatınızı Değerlendirin</span>
+          <h2 className="font-serif text-4xl md:text-5xl text-offwhite font-bold mb-6 leading-tight">
+            Arsanız İçin<br />
+            <span className="text-gold italic">Ücretsiz Değerleme</span>
           </h2>
-          <p className="text-white/70 text-lg mb-8 max-w-2xl mx-auto">
+          <div className="w-12 h-px bg-gold/50 mx-auto mb-8" />
+          <p className="text-muted text-lg mb-10 max-w-xl mx-auto font-light leading-relaxed">
             Kadıköy'deki arsanız için kat karşılığı teklif almak ister misiniz?
-            Bize ulaşın, uzmanlarımız sizi bilgilendirsin.
+            Uzmanlarımız sizi bilgilendirsin.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/iletisim"
-              className="bg-gold hover:bg-gold-dark text-navy font-semibold px-8 py-4 text-sm tracking-wide transition-colors"
-            >
-              İLETİŞİM FORMU
+            <Link href="/iletisim" className="btn-primary">
+              İletişim Formu <ArrowRight size={15} />
             </Link>
             <a
               href="https://wa.me/905337856161?text=Merhaba%2C%20arsam%20i%C3%A7in%20bilgi%20almak%20istiyorum."
               target="_blank"
               rel="noopener noreferrer"
-              className="border-2 border-white text-white hover:bg-white hover:text-navy font-semibold px-8 py-4 text-sm tracking-wide transition-colors"
+              className="btn-ghost"
             >
-              WHATSAPP İLE YAZIN
+              WhatsApp ile Yazın
             </a>
           </div>
         </div>
       </section>
+
     </div>
   );
 }
