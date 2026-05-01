@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { MapPin, Calendar, Building2, Maximize2 } from "lucide-react";
+import Link from "next/link";
+import { MapPin, Calendar, Building2, Maximize2, ArrowRight } from "lucide-react";
 import { getTamamlananProjeler } from "@/lib/projects";
 
 export const metadata = {
@@ -7,6 +8,10 @@ export const metadata = {
   description:
     "Sadıkoğlu İnşaat'ın Kadıköy, Fenerbahçe, Göztepe ve çevresinde tamamladığı 90+ kat karşılığı inşaat projesini inceleyin.",
 };
+
+function formatYil(tarih: string) {
+  return tarih?.split("-")[0] ?? "—";
+}
 
 export default function TamamlananProjelerPage() {
   const projeler = getTamamlananProjeler().sort((a, b) => {
@@ -16,88 +21,121 @@ export default function TamamlananProjelerPage() {
   });
 
   return (
-    <div className="pt-20">
-      {/* Header */}
-      <section className="bg-navy py-14 relative overflow-hidden">
-        <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-gold" />
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-gold text-sm font-semibold uppercase tracking-widest mb-3">
-            Referanslarımız
-          </p>
-          <h1 className="font-serif text-4xl text-white font-bold">
-            Tamamlanan Projeler
+    <div className="bg-dark min-h-screen">
+
+      {/* ── HEADER ──────────────────────────────────────── */}
+      <section className="relative pt-32 pb-16 overflow-hidden border-b border-dark-border">
+        <div
+          className="absolute inset-0 pointer-events-none"
+          style={{ background: "radial-gradient(ellipse at 30% 50%, rgba(201,168,71,0.06) 0%, transparent 60%)" }}
+        />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <span className="section-label">60 Yıllık Birikim</span>
+          <h1 className="font-serif text-4xl md:text-5xl text-offwhite font-bold leading-tight mb-4">
+            Tamamlanan<br />
+            <span className="text-gold italic">Projelerimiz</span>
           </h1>
-          <div className="w-16 h-0.5 bg-gold mt-4" />
-          <p className="text-white/60 mt-4 text-sm">
-            {projeler.length} tamamlanmış proje — Kadıköy ve çevresinde
+          <div className="gold-divider" />
+          <p className="text-muted mt-2 text-sm">
+            {projeler.length} referans proje · Kadıköy ve çevresi
           </p>
         </div>
       </section>
 
-      {/* Proje Listesi */}
-      <section className="py-16 bg-gray-50">
+      {/* ── PROJE GRİD ──────────────────────────────────── */}
+      <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-serif text-3xl text-navy font-bold mb-8">
-            Tüm Projeler
-            <span className="text-gold ml-3 text-xl">({projeler.length})</span>
-          </h2>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
             {projeler.map((proje) => (
-              <div
+              <Link
                 key={proje.id}
-                className="bg-white border border-gray-100 overflow-hidden group hover:shadow-md transition-shadow"
+                href={`/projeler/tamamlanan/${proje.id}`}
+                className="group bg-dark-mid border border-dark-border rounded-xl overflow-hidden hover:border-gold/40 transition-all duration-300 hover:shadow-2xl hover:shadow-gold/5 flex flex-col"
               >
-                {/* Fotoğraf veya Placeholder */}
-                {proje.fotograflar.length > 0 ? (
-                  <div className="relative aspect-[4/3] bg-gray-100 overflow-hidden flex items-center justify-center">
+                {/* Fotoğraf */}
+                <div className="relative aspect-[4/3] bg-dark-border overflow-hidden">
+                  {proje.fotograflar.length > 0 ? (
                     <Image
                       src={proje.fotograflar[0]}
                       alt={proje.ad}
                       fill
-                      className="object-contain group-hover:scale-105 transition-transform duration-500"
+                      className="object-cover group-hover:scale-105 transition-transform duration-700"
                     />
-                  </div>
-                ) : (
-                  <div className="aspect-[4/3] bg-navy/8 flex items-center justify-center border-b border-gray-100">
-                    <Building2 size={36} className="text-navy/20" />
-                  </div>
-                )}
+                  ) : (
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <Building2 size={32} className="text-muted/20" />
+                    </div>
+                  )}
+                  {/* Yıl badge */}
+                  <span className="absolute top-3 right-3 bg-dark/80 backdrop-blur-sm text-gold text-xs font-semibold px-2.5 py-1 rounded-full border border-gold/30">
+                    {formatYil(proje.iskanTarihi)}
+                  </span>
+                </div>
 
-                {/* Üst gold çizgi */}
-                <div className="h-1 bg-gold" />
+                {/* Gold accent */}
+                <div className="h-px bg-gold/30 group-hover:bg-gold/70 transition-colors duration-300" />
 
-                <div className="p-5">
-                  <h3 className="font-serif text-lg font-bold text-navy mb-3">
+                {/* İçerik */}
+                <div className="flex-1 p-5 flex flex-col gap-3">
+                  <h3 className="font-serif text-sm font-bold text-offwhite group-hover:text-gold transition-colors duration-300 leading-snug">
                     {proje.ad}
                   </h3>
 
-                  <ul className="space-y-2">
-                    <li className="flex items-center gap-2 text-gray-500 text-sm">
-                      <MapPin size={13} className="text-gold shrink-0" />
-                      <span>{proje.adres}</span>
-                    </li>
-                    <li className="flex items-center gap-2 text-gray-500 text-sm">
-                      <Calendar size={13} className="text-gold shrink-0" />
-                      <span>
-                        {proje.baslangicTarihi} → {proje.iskanTarihi}
-                      </span>
-                    </li>
-                    <li className="flex items-center gap-2 text-gray-500 text-sm">
-                      <Building2 size={13} className="text-gold shrink-0" />
+                  <div className="space-y-1.5">
+                    <div className="flex items-center gap-2 text-muted text-xs">
+                      <MapPin size={11} className="text-gold shrink-0" />
+                      <span className="truncate">{proje.adres}</span>
+                    </div>
+                    <div className="flex items-center gap-2 text-muted text-xs">
+                      <Building2 size={11} className="text-gold shrink-0" />
                       <span>{proje.bagimsizBolum} bağımsız bölüm</span>
-                    </li>
-                    <li className="flex items-center gap-2 text-gray-500 text-sm">
-                      <Maximize2 size={13} className="text-gold shrink-0" />
+                    </div>
+                    <div className="flex items-center gap-2 text-muted text-xs">
+                      <Maximize2 size={11} className="text-gold shrink-0" />
                       <span>{proje.insaatM2.toLocaleString("tr-TR")} m²</span>
-                    </li>
-                  </ul>
+                    </div>
+                  </div>
+
+                  <div className="mt-auto pt-3 flex items-center justify-between border-t border-dark-border">
+                    <span className="text-gold text-xs font-medium uppercase tracking-wider">Detayları Gör</span>
+                    <ArrowRight size={13} className="text-gold group-hover:translate-x-1 transition-transform duration-300" />
+                  </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
       </section>
+
+      {/* ── CTA ──────────────────────────────────────────── */}
+      <section className="py-20 border-t border-dark-border">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <span className="section-label">Fırsatınızı Değerlendirin</span>
+          <h2 className="font-serif text-3xl md:text-4xl text-offwhite font-bold mb-4">
+            Arsanız İçin<br />
+            <span className="text-gold italic">Ücretsiz Değerleme</span>
+          </h2>
+          <div className="w-10 h-px bg-gold/50 mx-auto mb-6" />
+          <p className="text-muted mb-8 max-w-lg mx-auto text-sm leading-relaxed">
+            Kadıköy'deki arsanız için kat karşılığı teklif almak ister misiniz?
+            Uzmanlarımız sizi bilgilendirsin.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/iletisim" className="btn-primary">
+              İletişim Formu <ArrowRight size={15} />
+            </Link>
+            <a
+              href="https://wa.me/905337856161?text=Merhaba%2C%20arsam%20i%C3%A7in%20bilgi%20almak%20istiyorum."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-ghost"
+            >
+              WhatsApp ile Yazın
+            </a>
+          </div>
+        </div>
+      </section>
+
     </div>
   );
 }
