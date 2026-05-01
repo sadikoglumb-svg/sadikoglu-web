@@ -180,37 +180,29 @@ export default function HakkimizdaPage() {
             <div className="gold-divider mx-auto" />
           </div>
 
-          <div className="relative max-w-4xl mx-auto">
-            {/* Dikey çizgi */}
-            <div className="absolute left-6 top-0 bottom-0 w-px bg-gold/20 md:left-1/2 md:-translate-x-1/2" />
+          <div className="relative max-w-2xl mx-auto">
+            {/* Dikey çizgi — sol kenar, yıl çemberlerinin ortasından geçer */}
+            <div className="absolute left-6 top-4 bottom-4 w-px bg-gold/25" />
 
-            <div className="space-y-8">
-              {zaman_cizelgesi.map(({ yil, baslik, aciklama }, i) => (
-                <div
-                  key={yil}
-                  className={`relative flex gap-8 md:gap-0 ${
-                    i % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-                  }`}
-                >
-                  {/* İçerik */}
-                  <div className={`flex-1 md:px-10 pl-16 md:pl-0 ${i % 2 === 0 ? "md:text-right" : "md:text-left"}`}>
+            <div className="space-y-6">
+              {zaman_cizelgesi.map(({ yil, baslik, aciklama }) => (
+                <div key={yil} className="flex items-start gap-6">
+
+                  {/* Yıl çemberi (sabit w-12, çizgi üzerinde) */}
+                  <div className="shrink-0 w-12 h-12 rounded-full bg-dark border-2 border-gold flex items-center justify-center z-10">
+                    <span className="font-serif text-gold font-bold text-[10px] text-center leading-tight px-1">
+                      {yil}
+                    </span>
+                  </div>
+
+                  {/* Kart — her zaman sağda */}
+                  <div className="flex-1 pb-2">
                     <div className="bg-dark-mid border border-dark-border rounded-xl p-6 hover:border-gold/30 transition-colors duration-300">
                       <h3 className="font-serif text-lg font-bold text-offwhite mb-2">{baslik}</h3>
                       <p className="text-muted text-sm leading-relaxed">{aciklama}</p>
                     </div>
                   </div>
 
-                  {/* Yıl noktası */}
-                  <div className="absolute left-0 md:left-1/2 md:-translate-x-1/2 top-6 flex items-center justify-center">
-                    <div className="w-12 h-12 rounded-full bg-dark border-2 border-gold flex items-center justify-center z-10">
-                      <span className="font-serif text-gold font-bold text-xs text-center leading-tight px-1">
-                        {yil}
-                      </span>
-                    </div>
-                  </div>
-
-                  {/* Karşı boşluk */}
-                  <div className="flex-1 hidden md:block" />
                 </div>
               ))}
             </div>
