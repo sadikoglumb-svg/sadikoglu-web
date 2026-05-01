@@ -38,7 +38,9 @@ export default function TamamlananProjeDetay({ params }: { params: { id: string 
   const anaFotograf = proje.fotograflar[0] ?? null;
   const digerFotograflar = proje.fotograflar.slice(1);
 
-  const mapSrc = `https://www.google.com/maps?q=${proje.koordinat.lat},${proje.koordinat.lng}&z=16&output=embed`;
+  // Adres araması olarak embed — koordinat yerine adres string kullan (daha doğru)
+  const mapQuery = encodeURIComponent(`${proje.ad}, ${proje.adres}, İstanbul`);
+  const mapSrc = `https://maps.google.com/maps?q=${mapQuery}&t=&z=16&ie=UTF8&iwloc=&output=embed`;
 
   const specs = [
     { label: "Konum", value: proje.adres },
