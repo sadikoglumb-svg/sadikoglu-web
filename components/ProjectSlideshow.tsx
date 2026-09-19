@@ -88,7 +88,7 @@ export default function ProjectSlideshow({ projeler }: Props) {
                     </div>
                     <div className="flex items-center gap-1.5 text-gray-500 text-sm">
                       <Clock size={14} className="text-gold" />
-                      <span>Tahmini Teslim: <strong>{proje.tahminiTeslim}</strong></span>
+                      <span>Teslim Tarihi: <strong>{proje.tahminiTeslim}</strong></span>
                     </div>
                     <div className="mt-4 pt-4 border-t border-gray-100">
                       <span className="text-gold text-sm font-medium group-hover:underline">

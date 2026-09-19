@@ -148,7 +148,7 @@ export default function AnaSayfa() {
                       </span>
                       <span className="flex items-center gap-2">
                         <Clock size={13} className="text-gold shrink-0" />
-                        Tahmini Teslim: <strong className="text-offwhite/70">{proje.tahminiTeslim}</strong>
+                        Teslim Tarihi: <strong className="text-offwhite/70">{proje.tahminiTeslim}</strong>
                       </span>
                     </div>
                   </div>

@@ -38,7 +38,7 @@ export default function ProjeDetayPage({ params }: { params: { slug: string } })
   const specs = [
     { label: "Konum", value: `${proje.mahalle}, ${proje.ilce}` },
     { label: "İnşaat Aşaması", value: proje.asama },
-    { label: "Tahmini Teslim", value: proje.tahminiTeslim },
+    { label: "Teslim Tarihi", value: proje.tahminiTeslim },
     ...(proje.bagimsizBolum ? [{ label: "Bağımsız Bölüm", value: `${proje.bagimsizBolum} adet` }] : []),
     ...(proje.insaatM2 ? [{ label: "İnşaat Alanı", value: `${proje.insaatM2.toLocaleString("tr-TR")} m²` }] : []),
   ];
@@ -108,7 +108,7 @@ export default function ProjeDetayPage({ params }: { params: { slug: string } })
               </div>
               <div className="flex items-center gap-2 text-muted text-sm">
                 <Clock size={13} className="text-gold shrink-0" />
-                Tahmini Teslim: <strong className="text-offwhite/80">{proje.tahminiTeslim}</strong>
+                Teslim Tarihi: <strong className="text-offwhite/80">{proje.tahminiTeslim}</strong>
               </div>
             </div>
 

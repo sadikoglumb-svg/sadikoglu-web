@@ -70,7 +70,7 @@ export default function GuncelProjelerAdmin() {
 
   const kaydet = async () => {
     if (!form.ad || !form.asama || !form.tahminiTeslim) {
-      alert("Proje adı, aşama ve tahmini teslim zorunludur.");
+      alert("Proje adı, aşama ve teslim tarihi zorunludur.");
       return;
     }
     setSaving(true);
@@ -197,7 +197,7 @@ export default function GuncelProjelerAdmin() {
                 </select>
               </div>
               <div>
-                <label className="label">Tahmini Teslim *</label>
+                <label className="label">Teslim Tarihi *</label>
                 <input
                   type="text"
                   value={form.tahminiTeslim || ""}
