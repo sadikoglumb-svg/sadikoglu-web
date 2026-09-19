@@ -12,6 +12,7 @@ const ASAMA_OPTIONS = [
   "Sıva / İnce İşler",
   "İnce İşler",
   "Bitmek Üzere",
+  "İskan Aşamasında",
 ];
 
 const EMPTY_FORM: Partial<GuncelProje> = {

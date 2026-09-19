@@ -10,6 +10,7 @@ const ASAMA_COLORS: Record<string, string> = {
   "Kaba İnşaat":      "bg-orange-900/60 text-orange-300 border-orange-700",
   "İnce İşler":       "bg-yellow-900/60 text-yellow-300 border-yellow-700",
   "Bitmek Üzere":     "bg-green-900/60 text-green-300 border-green-700",
+  "İskan Aşamasında": "bg-emerald-900/60 text-emerald-300 border-emerald-700",
   "Proje Aşamasında": "bg-purple-900/60 text-purple-300 border-purple-700",
 };
 
