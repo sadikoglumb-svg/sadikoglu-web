@@ -202,6 +202,36 @@ export default function ProjeDetayPage({ params }: { params: { slug: string } })
         </section>
       )}
 
+      {/* ── KONUM ────────────────────────────────────────── */}
+      {proje.koordinat && (
+        <section className="py-16 border-t border-dark-border">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="mb-10">
+              <span className="section-label">Proje Konumu</span>
+              <h2 className="section-title">Harita</h2>
+              <div className="gold-divider" />
+            </div>
+            <div className="rounded-2xl overflow-hidden border border-dark-border" style={{ height: "420px" }}>
+              <iframe
+                src={`https://maps.google.com/maps?q=${proje.koordinat.lat},${proje.koordinat.lng}&z=16&output=embed`}
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </div>
+            {proje.adres && (
+              <p className="text-muted text-sm mt-4 flex items-center gap-1.5">
+                <MapPin size={13} className="text-gold shrink-0" />
+                {proje.adres}
+              </p>
+            )}
+          </div>
+        </section>
+      )}
+
       {/* ── CTA ──────────────────────────────────────────── */}
       <section className="py-20 border-t border-dark-border">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
