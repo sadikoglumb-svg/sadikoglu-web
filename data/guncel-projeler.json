@@ -76,6 +76,70 @@
       "lat": 40.98614,
       "lng": 29.048425
     },
+    "teknikOzellikler": [
+      {
+        "baslik": "Isıtma & Tesisat",
+        "maddeler": [
+          "Merkezi sistem ısıtma",
+          "TSE belgeli radyatör"
+        ]
+      },
+      {
+        "baslik": "Yapı & Yalıtım",
+        "maddeler": [
+          "C30 sınıfı beton, radye temel",
+          "Taş yünü veya Multipor dış cephe ısı yalıtımı",
+          "15 cm dış duvar gazbeton, 10 cm iç duvar gazbeton",
+          "Komşu daireler arası çift duvar + ses yalıtımı"
+        ]
+      },
+      {
+        "baslik": "Kapı & Doğrama",
+        "maddeler": [
+          "Ahşap görünümlü çelik giriş kapısı, merkezi kilit",
+          "Melamin kaplı mobilya iç kapılar",
+          "Winsa, Egepen veya Pimapen 7000 serisi PVC pencere",
+          "Paşabahçe 4x16x4 Konforcam ısı yalıtımlı cam",
+          "Alüminyum motorlu monoblok panjur"
+        ]
+      },
+      {
+        "baslik": "Banyo",
+        "maddeler": [
+          "Çanakkale, Vitra veya Kütahya marka 60x60 / 60x120 seramik",
+          "Vitra, Cresta, Folka veya Orka marka banyo dolapları",
+          "Duşakabin"
+        ]
+      },
+      {
+        "baslik": "Mutfak",
+        "maddeler": [
+          "Hazır mutfak dolap, granit tezgah",
+          "Teka veya Franke marka damlalıklı evye",
+          "Artema, ECA veya Serel eviye bataryası",
+          "Ankastre ocak ve davlumbaz"
+        ]
+      },
+      {
+        "baslik": "İç Mekan",
+        "maddeler": [
+          "AGT, Yıldız Entegre, Kastamonu veya Çamsan laminant parke",
+          "Su bazlı / saten duvar boyası",
+          "PVC süpürgelik (8-12 cm)"
+        ]
+      },
+      {
+        "baslik": "Teknik",
+        "maddeler": [
+          "Çift hızlı sessiz otomatik asansör (2 adet)",
+          "Viko, Mutlusan veya Legrand priz ve anahtarlar",
+          "Siemens veya Hess kablo ve sigorta",
+          "Her daireye bağımsız elektrik sayacı",
+          "Audio marka görüntülü diafon",
+          "Dijitürk uyumlu uydu anten sistemi"
+        ]
+      }
+    ],
     "yayinda": true
   },
   {
@@ -87,10 +151,10 @@
     "ada": "163",
     "parsel": "717",
     "asama": "Proje Aşamasında",
-    "tahminiTeslim": "Aralık 2027",
+    "tahminiTeslim": "Mart 2028",
     "bagimsizBolum": 32,
     "insaatM2": 3500,
-    "aciklama": "Bostancı Mahallesi Eminalipaşa Caddesi'nde 32 bağımsız bölümlü konut projesi. İnşaat Ekim 2026'da başlaması planlanmaktadır.",
+    "aciklama": "Bostancı Mahallesi Eminalipaşa Caddesi'nde 32 bağımsız bölümlü konut projesi. İnşaat Mart 2027'de başlaması planlanmaktadır.",
     "fotograflar": [
       "/images/projeler/guncel-hurriyet-bostanci/foto-1.jpg",
       "/images/projeler/guncel-hurriyet-bostanci/foto-2.jpg"
