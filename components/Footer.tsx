@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Logo & Tanıtım */}
           <div>
             <Image
-              src="/logo.png"
+              src="/logo-light.png"
               alt="Sadıkoğlu İnşaat"
               width={130}
               height={65}
