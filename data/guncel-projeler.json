@@ -88,9 +88,9 @@
     "parsel": "717",
     "asama": "Proje Aşamasında",
     "tahminiTeslim": "Aralık 2027",
-    "bagimsizBolum": 28,
+    "bagimsizBolum": 32,
     "insaatM2": 3500,
-    "aciklama": "Bostancı Mahallesi Eminalipaşa Caddesi'nde 28 bağımsız bölümlü konut projesi. İnşaat Ekim 2026'da başlaması planlanmaktadır.",
+    "aciklama": "Bostancı Mahallesi Eminalipaşa Caddesi'nde 32 bağımsız bölümlü konut projesi. İnşaat Ekim 2026'da başlaması planlanmaktadır.",
     "fotograflar": [
       "/images/projeler/guncel-hurriyet-bostanci/foto-1.jpg",
       "/images/projeler/guncel-hurriyet-bostanci/foto-2.jpg"
@@ -99,6 +99,71 @@
       "lat": 40.9562195,
       "lng": 29.0990568
     },
+    "teknikOzellikler": [
+      {
+        "baslik": "Isıtma & Tesisat",
+        "maddeler": [
+          "Buderus, Baymak veya Demirdöküm kombi",
+          "TSE belgeli yerden ısıtma sistemi"
+        ]
+      },
+      {
+        "baslik": "Yapı & Yalıtım",
+        "maddeler": [
+          "C30 sınıfı beton, radye temel",
+          "A1 yangın sınıfı taş yünü ısı yalıtımı (150 kg/m³, 50 mm)",
+          "Jotun veya Filli dış cephe boyası",
+          "Komşu daireler arası çift duvar + ses yalıtımı",
+          "Minimum 3,20 m kat yüksekliği"
+        ]
+      },
+      {
+        "baslik": "Kapı & Doğrama",
+        "maddeler": [
+          "Gürdal, Kale veya Acar marka çelik giriş kapısı",
+          "Özge, İmova, Gante, Artella marka iç kapılar",
+          "Winsa, Pimapen veya Deceuninck 7000 serisi PVC pencere",
+          "Konforcam 4x16x4 ısı yalıtımlı cam",
+          "Alüminyum motorlu monoblok panjur"
+        ]
+      },
+      {
+        "baslik": "Banyo",
+        "maddeler": [
+          "Çanakkale, Vitra, Kütahya veya Serra marka 60x60 / 60x120 seramik",
+          "Artemis, Sanica, Hüppe veya Aqua marka duşakabin"
+        ]
+      },
+      {
+        "baslik": "Mutfak",
+        "maddeler": [
+          "Lineadecor, Gante, Procontact veya Demsaş marka dolap",
+          "Doğal granit / çimstone tezgah",
+          "Siemens, Arçelik, Beko veya Teka ankastre cihazlar",
+          "Teka / Frankei / Ukinox evye, Artema / HansGrohe / ECA armatür"
+        ]
+      },
+      {
+        "baslik": "İç Mekan",
+        "maddeler": [
+          "AGT, Vario veya Çamsan laminant parke (min. 10 mm)",
+          "Filli Boya veya Jotun su bazlı / saten duvar boyası",
+          "12 cm süpürgelik"
+        ]
+      },
+      {
+        "baslik": "Teknik",
+        "maddeler": [
+          "Ersan, Fersan, GM veya Minimak marka asansör",
+          "Viko, Mutlusan veya Legrand priz ve anahtarlar",
+          "Siemens veya Hess kablo ve sigorta",
+          "Her daireye bağımsız elektrik sayacı",
+          "Audio marka görüntülü diafon (4,2 inç)",
+          "Fiber internet altyapısı",
+          "Dijitürk uyumlu uydu anten sistemi"
+        ]
+      }
+    ],
     "yayinda": true
   }
 ]

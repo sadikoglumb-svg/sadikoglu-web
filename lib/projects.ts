@@ -16,6 +16,7 @@ export interface GuncelProje {
   aciklama: string;
   fotograflar: string[];
   koordinat: { lat: number; lng: number };
+  teknikOzellikler?: { baslik: string; maddeler: string[] }[];
   yayinda: boolean;
 }
 

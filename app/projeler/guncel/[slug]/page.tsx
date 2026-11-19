@@ -188,6 +188,36 @@ export default function ProjeDetayPage({ params }: { params: { slug: string } })
         </div>
       </section>
 
+      {/* ── TEKNİK ÖZELLİKLER ───────────────────────────── */}
+      {proje.teknikOzellikler && proje.teknikOzellikler.length > 0 && (
+        <section className="py-16 border-t border-dark-border">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="mb-10">
+              <span className="section-label">İnşaat Kalitesi</span>
+              <h2 className="section-title">Teknik Özellikler</h2>
+              <div className="gold-divider" />
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {proje.teknikOzellikler.map((kategori) => (
+                <div key={kategori.baslik} className="bg-dark-mid border border-dark-border rounded-xl p-6">
+                  <h3 className="text-gold font-semibold text-sm uppercase tracking-wider mb-4">
+                    {kategori.baslik}
+                  </h3>
+                  <ul className="space-y-2">
+                    {kategori.maddeler.map((madde, i) => (
+                      <li key={i} className="flex items-start gap-2 text-sm text-muted">
+                        <span className="w-1 h-1 rounded-full bg-gold/60 mt-2 shrink-0" />
+                        {madde}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* ── GALERİ ───────────────────────────────────────── */}
       {digerFotograflar.length > 0 && (
         <section className="py-16 border-t border-dark-border">
